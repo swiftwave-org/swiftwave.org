@@ -17,7 +17,7 @@ jobs:
           node-version: 18
           cache: npm
       - name: Install dependencies
-        run: npm ci --production
+        run: npm ci --omit=dev
       - name: Build website
         run: npm run build
       - name: Deploy to GitHub Pages
@@ -25,5 +25,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
