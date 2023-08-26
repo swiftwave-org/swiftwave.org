@@ -1,6 +1,6 @@
 {
-  "name": "swiftwave-docs",
-  "version": "0.0.0",
+  "name": "swiftwave-org",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
