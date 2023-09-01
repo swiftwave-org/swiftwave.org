@@ -58,6 +58,8 @@ const config = {
     ],
   ],
 
+  plugins: ["@chatwoot/docusaurus-plugin"],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -132,6 +134,20 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      chatwoot: {
+        websiteToken: "fHNAVUAniYVj5DzwyRNxvxSC",
+        baseURL: "https://app.chatwoot.com",  // optional
+        enableInDevelopment: false,  // optional
+        chatwootSettings: {
+          hideMessageBubble: false,
+          position: "left", // This can be left or right
+          locale: "en", // Language to be set
+          useBrowserLanguage: false, // Set widget language from user's browser
+          darkMode: "auto", // [light, auto]
+          type: "expanded_bubble",
+          launcherTitle: "Need Help ?",
+        }
       },
     }),
 };
