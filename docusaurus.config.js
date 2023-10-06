@@ -44,7 +44,18 @@ const config = {
 
   plugins: [
     require.resolve("@chatwoot/docusaurus-plugin"),
-    require.resolve("docusaurus-plugin-image-zoom")
+    require.resolve("docusaurus-plugin-image-zoom"),
+    async function tailwindPlugin(context, options) {
+      return {
+        name: "docusaurus-tailwindcss",
+        configurePostCss(postcssOptions) {
+          // Appends TailwindCSS and AutoPrefixer.
+          postcssOptions.plugins.push(require("tailwindcss"));
+          postcssOptions.plugins.push(require("autoprefixer"));
+          return postcssOptions;
+        },
+      };
+    }
   ],
 
   themeConfig:
