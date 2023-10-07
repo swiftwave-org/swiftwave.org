@@ -1,6 +1,0 @@
-{
-  "yaml.schemas": {
-    "kubernetes": "*.yaml",
-    "https://json.schemastore.org/github-workflow.json": "file:///home/tanmoy/Desktop/oss/swiftwave-docs/.github/workflows/deploy.yml"
-  }
-}
