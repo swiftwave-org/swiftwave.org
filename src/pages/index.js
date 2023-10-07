@@ -153,6 +153,7 @@ export default function Home() {
                       placeholder="Enter your email"
                       type="email"
                       id="email"
+                      name="email"
                       required={true}
                     ></input>
                   </div>
