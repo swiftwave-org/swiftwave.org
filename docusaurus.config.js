@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "SwiftWave",
-  tagline: "Dinosaurs are cool",
+  tagline: "Self-hosted Open Source Lightweight PaaS solution",
   favicon: "img/favicon.ico",
   url: "https://swiftwave.org",
   baseUrl: "/",
@@ -67,15 +67,6 @@ const config = {
       {
         trackingID: "G-XNGNG43806",
         anonymizeIP: true,
-      },
-    ],
-    [
-      '@docusaurus/plugin-sitemap',
-      {
-        changefreq: 'weekly',
-        priority: 0.5,
-        ignorePatterns: ['/tags/**'],
-        filename: 'sitemap.xml',
       },
     ],
   ],
