@@ -136,6 +136,7 @@ export default function Home() {
               <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl dark:text-white">Sign up for our newsletter</h2>
               <p className="mx-auto mb-8 max-w-2xl font-light text-gray-500 md:mb-12 sm:text-xl dark:text-gray-400">Subscribe to Our Newsletter for Roadmap Updates, New Features, Announcements, and Blog Notifications – Stay Informed!</p>
               <form name="newsletter_subscription" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="newsletter_subscription" />
                 <div className="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
                   <div className="relative w-full">
                     <label htmlFor="email" className="hidden mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
