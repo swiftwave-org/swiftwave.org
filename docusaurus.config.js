@@ -1,32 +1,32 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'SwiftWave',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
-  url: 'https://swiftwave.org',
-  baseUrl: '/',
-  organizationName: 'swiftwave-org', // Usually your GitHub org/user name.
-  projectName: 'swiftwave', // Usually your repo name.
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  title: "SwiftWave",
+  tagline: "Dinosaurs are cool",
+  favicon: "img/favicon.ico",
+  url: "https://swiftwave.org",
+  baseUrl: "/",
+  organizationName: "swiftwave-org", // Usually your GitHub org/user name.
+  projectName: "swiftwave", // Usually your repo name.
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           editUrl: ({ docPath }) => {
             const nextVersionDocsDirPath = "docs";
             return `https://github.com/swiftwave-org/swiftwave.org/edit/main/${nextVersionDocsDirPath}/${docPath}`;
@@ -36,9 +36,15 @@ const config = {
           showReadingTime: true,
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
+      {
+        gtag: {
+          trackingID: "G-XNGNG43806",
+          anonymizeIP: true,
+        },
+      },
     ],
   ],
 
@@ -55,16 +61,16 @@ const config = {
           return postcssOptions;
         },
       };
-    }
+    },
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        defaultMode: 'dark',
+        defaultMode: "dark",
         disableSwitch: true,
-        respectPrefersColorScheme: true
+        respectPrefersColorScheme: true,
       },
       zoom: {
         selector: "figure[data-zoomable] > img",
@@ -77,81 +83,81 @@ const config = {
         },
       },
       algolia: {
-        appId: 'WY65BML5H8',
-        apiKey: 'a97eb71e909eda795440b5f86cd42381',
-        indexName: 'docs',
+        appId: "WY65BML5H8",
+        apiKey: "a97eb71e909eda795440b5f86cd42381",
+        indexName: "docs",
         contextualSearch: true,
         // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
         replaceSearchResultPathname: {
-          from: '/docs/', // or as RegExp: /\/docs\//
-          to: '/',
+          from: "/docs/", // or as RegExp: /\/docs\//
+          to: "/",
         },
       },
       navbar: {
-        title: 'SwiftWave',
+        title: "SwiftWave",
         logo: {
-          alt: 'SwiftWave Logo',
-          src: 'img/logo.svg',
+          alt: "SwiftWave Logo",
+          src: "img/logo.svg",
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'docSidebar',
-            label: 'Docs',
-            position: 'left',
+            type: "docSidebar",
+            sidebarId: "docSidebar",
+            label: "Docs",
+            position: "left",
           },
           {
-            to: 'blog/',
-            activeBasePath: 'blog/',
-            label: 'Blog',
-            position: 'left'
+            to: "blog/",
+            activeBasePath: "blog/",
+            label: "Blog",
+            position: "left",
           },
           {
-            href: 'https://github.com/swiftwave-org/swiftwave',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/swiftwave-org/swiftwave",
+            label: "GitHub",
+            position: "right",
           },
-        ]
+        ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Docs',
+            title: "Docs",
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: "Tutorial",
+                to: "/docs/intro",
               },
             ],
           },
           {
-            title: 'Community',
+            title: "Community",
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: "Stack Overflow",
+                href: "https://stackoverflow.com/questions/tagged/docusaurus",
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: "Discord",
+                href: "https://discordapp.com/invite/docusaurus",
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: "Twitter",
+                href: "https://twitter.com/docusaurus",
               },
             ],
           },
           {
-            title: 'More',
+            title: "More",
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: "Blog",
+                to: "/blog",
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: "GitHub",
+                href: "https://github.com/facebook/docusaurus",
               },
             ],
           },
@@ -164,8 +170,8 @@ const config = {
       },
       chatwoot: {
         websiteToken: "fHNAVUAniYVj5DzwyRNxvxSC",
-        baseURL: "https://app.chatwoot.com",  // optional
-        enableInDevelopment: false,  // optional
+        baseURL: "https://app.chatwoot.com", // optional
+        enableInDevelopment: false, // optional
         chatwootSettings: {
           hideMessageBubble: false,
           position: "right", // This can be left or right
@@ -174,7 +180,7 @@ const config = {
           darkMode: "auto", // [light, auto]
           type: "expanded_bubble",
           launcherTitle: "Need Help",
-        }
+        },
       },
     }),
 };
