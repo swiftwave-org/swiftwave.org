@@ -39,12 +39,6 @@ const config = {
           customCss: require.resolve("./src/css/custom.css"),
         },
       }),
-      {
-        gtag: {
-          trackingID: "G-XNGNG43806",
-          anonymizeIP: true,
-        },
-      },
     ],
   ],
 
@@ -62,6 +56,13 @@ const config = {
         },
       };
     },
+    [
+      "@docusaurus/plugin-google-gtag",
+      {
+        trackingID: "G-XNGNG43806",
+        anonymizeIP: true,
+      },
+    ],
   ],
 
   themeConfig:
