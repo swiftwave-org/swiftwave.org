@@ -63,6 +63,15 @@ const config = {
         anonymizeIP: true,
       },
     ],
+    [
+      '@docusaurus/plugin-sitemap',
+      {
+        changefreq: 'weekly',
+        priority: 0.5,
+        ignorePatterns: ['/tags/**'],
+        filename: 'sitemap.xml',
+      },
+    ],
   ],
 
   themeConfig:
@@ -101,18 +110,18 @@ const config = {
           src: "img/logo.svg",
         },
         items: [
-          {
-            type: "docSidebar",
-            sidebarId: "docSidebar",
-            label: "Docs",
-            position: "left",
-          },
-          {
-            to: "blog/",
-            activeBasePath: "blog/",
-            label: "Blog",
-            position: "left",
-          },
+          // {
+          //   type: "docSidebar",
+          //   sidebarId: "docSidebar",
+          //   label: "Docs",
+          //   position: "left",
+          // },
+          // {
+          //   to: "blog/",
+          //   activeBasePath: "blog/",
+          //   label: "Blog",
+          //   position: "left",
+          // },
           {
             href: "https://github.com/swiftwave-org/swiftwave",
             label: "GitHub",
@@ -124,11 +133,36 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Source Code",
             items: [
               {
-                label: "Tutorial",
+                label: "SwiftWave Service",
+                href: "https://github.com/swiftwave-org/swiftwave",
+              },
+              {
+                label: "SwiftWave Dashboard",
+                href: "https://github.com/swiftwave-org/swiftwave-dashboard",
+              },
+              {
+                label: "SwiftWave Website",
+                href: "https://github.com/swiftwave-org/swiftwave.org",
+              },
+            ],
+          },
+          {
+            title: "Important Links",
+            items: [
+              {
+                label: "Docs",
                 to: "/docs/intro",
+              },
+              {
+                label: "API Docs",
+                to: "https://apidocs.swiftwave.org",
+              },
+              {
+                label: "Blog",
+                to: "/blog",
               },
             ],
           },
@@ -136,34 +170,21 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "Join on Slack",
+                href: "https://join.slack.com/t/swiftwave-team/shared_invite/zt-21n86aslx-aAvBi3hv1GigVA_XoXiu4Q",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "GitHub Org",
+                href: "https://github.com/swiftwave-org",
               },
               {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "Mail Us",
+                href: "mailto:support@swiftwave.org",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} SwiftWave, All rights reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
