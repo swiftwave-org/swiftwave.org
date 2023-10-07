@@ -16,9 +16,9 @@
   "dependencies": {
     "@chatwoot/docusaurus-plugin": "^1.0.1",
     "@docusaurus/core": "2.4.1",
-    "@docusaurus/plugin-google-gtag": "^2.4.3",
+    "@docusaurus/plugin-google-gtag": "2.4.1",
     "@docusaurus/preset-classic": "2.4.1",
-    "@docusaurus/theme-search-algolia": "^2.4.1",
+    "@docusaurus/theme-search-algolia": "2.4.1",
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
     "@mdx-js/react": "^1.6.22",
