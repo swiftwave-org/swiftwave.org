@@ -89,6 +89,14 @@ const config = {
           },
         },
       },
+      announcementBar: {
+        id: 'funding',
+        content:
+          '🚧 This website is under development. All the documentation will be released soon.',
+      backgroundColor: '#FAF9F6',
+      textColor: '#091E42',
+      isCloseable: false,
+    },
       algolia: {
         appId: "WY65BML5H8",
         apiKey: "a97eb71e909eda795440b5f86cd42381",
