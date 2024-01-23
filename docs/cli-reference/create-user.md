@@ -1,5 +1,5 @@
 ---
-id: swiftwave-create-user
+id: create-user
 title: swiftwave create-user
 tags:
   - CLI

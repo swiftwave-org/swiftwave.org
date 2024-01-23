@@ -1,5 +1,5 @@
 ---
-id: swiftwave-start
+id: start
 title: swiftwave start
 tags:
   - CLI

@@ -1,5 +1,5 @@
 ---
-id: swiftwave-setup
+id: setup
 title: swiftwave setup
 tags:
   - CLI

@@ -1,5 +1,5 @@
 ---
-id: swiftwave-base
+id: base
 title: swiftwave (base Command)
 tags:
   - CLI

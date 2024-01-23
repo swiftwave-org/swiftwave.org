@@ -1,5 +1,5 @@
 ---
-id: swiftwave-generate-tls
+id: generate-tls
 title: swiftwave generate-tls
 tags:
   - CLI

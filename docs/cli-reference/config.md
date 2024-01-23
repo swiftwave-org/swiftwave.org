@@ -1,5 +1,5 @@
 ---
-id: swiftwave-config
+id: config
 title: swiftwave config
 tags:
   - CLI

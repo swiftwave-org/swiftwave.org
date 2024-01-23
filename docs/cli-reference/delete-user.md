@@ -1,5 +1,5 @@
 ---
-id: swiftwave-delete-user
+id: delete-user
 title: swiftwave delete-user
 tags:
   - CLI

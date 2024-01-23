@@ -1,5 +1,5 @@
 ---
-id: swiftwave-init
+id: init
 title: swiftwave init
 tags:
   - CLI

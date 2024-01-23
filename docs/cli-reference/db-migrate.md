@@ -1,5 +1,5 @@
 ---
-id: swiftwave-db-migrate
+id: db-migrate
 title: swiftwave db-migrate
 tags:
   - CLI

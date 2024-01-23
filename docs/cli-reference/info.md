@@ -1,5 +1,5 @@
 ---
-id: swiftwave-info
+id: info
 title: swiftwave info
 tags:
   - CLI
