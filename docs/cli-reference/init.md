@@ -6,22 +6,22 @@ tags:
 sidebar_position: 2
 ---
 
-Initialize SwiftWave configuration on server
+Initialize the configuration for Swiftwave on the system. 
 
 ### Usage
 
 ```
-swiftwave init
+swiftwave init [flags]
 ```
 
 ### Options
 
-```
-      --mode string                Mode of operation [standalone or cluster] (default "standalone")
-      --letsencrypt-email string   Email address for Let's Encrypt
-      --haproxy-user string        Username for HAProxy stats page (default "admin")
-      --haproxy-password string    Password for HAProxy stats page (default "admin")
-      --auto-domain                Resolve domain name automatically
-      --overwrite                  Overwrite existing configuration
-  -h, --help                       help for init
-```
+
+| Flag       |   Type   |  Default |  Mandatory |     Description           |
+|------------|----------|----------|------------|---------------------------|
+| --mode     | `standalone` / `cluster` | <center>`standalone`</center> | <center>❌</center> | Mode of operation |
+| --letsencrypt-email | string | <center>--</center> | <center>❌</center> | Email address for Let's Encrypt |
+| --haproxy-user | string | <center>`admin`</center> | <center>❌</center> | Username for HAProxy (Can't be modified once set) |
+| --haproxy-password | string | <center>`admin`</center> | <center>❌</center> | Password for HAProxy (Can't be modified once set) |
+| --auto-domain | `true` / `false` | <center>`false`</center> | <center>❌</center> | Resolve domain name automatically |
+| --overwrite | `true` / `false` | <center>`false`</center> | <center>❌</center> | Overwrite existing configuration |
