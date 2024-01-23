@@ -6,25 +6,10 @@ tags:
 sidebar_position: 2
 ---
 
-## swiftwave service disable
+Disable Swiftwave service
 
-Disable a service
-
-### Synopsis
-
-Disable a service
+### Usage
 
 ```
-swiftwave service disable [flags]
+swiftwave service disable
 ```
-
-### Options
-
-```
-  -h, --help   help for disable
-```
-
-### SEE ALSO
-
-* [swiftwave service](swiftwave_service.md)	 - Manage Swiftwave Daemon Service
-

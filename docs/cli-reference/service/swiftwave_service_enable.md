@@ -6,25 +6,10 @@ tags:
 sidebar_position: 1
 ---
 
-## swiftwave service enable
-
 Enable a service
 
-### Synopsis
-
-Enable a service
+### Usage
 
 ```
-swiftwave service enable [flags]
+swiftwave service enable
 ```
-
-### Options
-
-```
-  -h, --help   help for enable
-```
-
-### SEE ALSO
-
-* [swiftwave service](swiftwave_service.md)	 - Manage Swiftwave Daemon Service
-

@@ -6,13 +6,9 @@ tags:
 sidebar_position: 5
 ---
 
-## swiftwave db-migrate
-
 Migrate the database
 
-### Synopsis
-
-Migrate the database
+### Usage
 
 ```
 swiftwave db-migrate [flags]
@@ -23,8 +19,4 @@ swiftwave db-migrate [flags]
 ```
   -h, --help   help for db-migrate
 ```
-
-### SEE ALSO
-
-* [swiftwave](swiftwave.md)	 - SwiftWave is a self-hosted lightweight PaaS solution
 

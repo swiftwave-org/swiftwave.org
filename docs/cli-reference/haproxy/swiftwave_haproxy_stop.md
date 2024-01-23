@@ -3,28 +3,15 @@ id: stop
 title: swiftwave haproxy stop
 tags:
   - CLI
+  - HaProxy
 sidebar_position: 2
 ---
 
-## swiftwave haproxy stop
-
 Stop HAProxy service
 
-### Synopsis
-
-Stop HAProxy service
+### Usage
 
 ```
-swiftwave haproxy stop [flags]
+swiftwave haproxy stop
 ```
-
-### Options
-
-```
-  -h, --help   help for stop
-```
-
-### SEE ALSO
-
-* [swiftwave haproxy](swiftwave_haproxy.md)	 - Manage HAProxy service
 

@@ -5,25 +5,13 @@ tags:
   - CLI
 sidebar_position: 13
 ---
-## swiftwave info
 
 Print info of swiftwave
 
-### Synopsis
-
-Print info of swiftwave
+### Usage
 
 ```
-swiftwave info [flags]
+swiftwave info
 ```
 
-### Options
-
-```
-  -h, --help   help for info
-```
-
-### SEE ALSO
-
-* [swiftwave](swiftwave.md)	 - SwiftWave is a self-hosted lightweight PaaS solution
 

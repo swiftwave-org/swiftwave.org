@@ -6,14 +6,12 @@ tags:
 sidebar_position: 8
 ---
 
-## swiftwave generate-tls
-
 Generate TLS certificates for swiftwave endpoints
 
-### Synopsis
-
-This command generates TLS certificates for swiftwave endpoints.
+> This command generates TLS certificates for swiftwave endpoints.
 	It's not for generating certificates for domain of hosted applications
+
+### Usage
 
 ```
 swiftwave generate-tls [flags]
@@ -25,8 +23,3 @@ swiftwave generate-tls [flags]
       --domain string   Domain name for which to generate the certificate
   -h, --help            help for generate-tls
 ```
-
-### SEE ALSO
-
-* [swiftwave](swiftwave.md)	 - SwiftWave is a self-hosted lightweight PaaS solution
-

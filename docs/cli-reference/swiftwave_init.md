@@ -6,12 +6,12 @@ tags:
 sidebar_position: 2
 ---
 
-## swiftwave init
-
 Initialize SwiftWave configuration on server
 
+### Usage
+
 ```
-swiftwave init [flags]
+swiftwave init
 ```
 
 ### Options
@@ -25,8 +25,3 @@ swiftwave init [flags]
       --overwrite                  Overwrite existing configuration
   -h, --help                       help for init
 ```
-
-### SEE ALSO
-
-* [swiftwave](swiftwave.md)	 - SwiftWave is a self-hosted lightweight PaaS solution
-

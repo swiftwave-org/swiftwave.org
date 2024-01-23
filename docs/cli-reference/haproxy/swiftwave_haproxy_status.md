@@ -3,28 +3,14 @@ id: status
 title: swiftwave haproxy status
 tags:
   - CLI
+  - HaProxy
 sidebar_position: 3
 ---
 
-## swiftwave haproxy status
-
 Show HAProxy service status
 
-### Synopsis
-
-Show HAProxy service status
+### Usage
 
 ```
-swiftwave haproxy status [flags]
+swiftwave haproxy status
 ```
-
-### Options
-
-```
-  -h, --help   help for status
-```
-
-### SEE ALSO
-
-* [swiftwave haproxy](swiftwave_haproxy.md)	 - Manage HAProxy service
-

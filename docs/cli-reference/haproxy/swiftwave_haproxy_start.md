@@ -3,28 +3,14 @@ id: start
 title: swiftwave haproxy start
 tags:
   - CLI
+  - HaProxy
 sidebar_position: 1
 ---
 
-## swiftwave haproxy start
-
 Start HAProxy service
 
-### Synopsis
-
-Start HAProxy service
+### Usage
 
 ```
-swiftwave haproxy start [flags]
+swiftwave haproxy start
 ```
-
-### Options
-
-```
-  -h, --help   help for start
-```
-
-### SEE ALSO
-
-* [swiftwave haproxy](swiftwave_haproxy.md)	 - Manage HAProxy service
-

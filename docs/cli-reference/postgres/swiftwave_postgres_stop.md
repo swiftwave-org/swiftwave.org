@@ -6,25 +6,10 @@ tags:
 sidebar_position: 2
 ---
 
-## swiftwave postgres stop
-
-Stop local postgres database
-
-### Synopsis
-
 Stop local postgres database (Recommended only for standalone installations)
 
-```
-swiftwave postgres stop [flags]
-```
-
-### Options
+### Usage
 
 ```
-  -h, --help   help for stop
+swiftwave postgres stop
 ```
-
-### SEE ALSO
-
-* [swiftwave postgres](swiftwave_postgres.md)	 - Manage local postgres database (Only for standalone installation) [Not recommended]
-

@@ -6,13 +6,10 @@ tags:
 sidebar_position: 7
 ---
 
-## swiftwave delete-user
-
 Delete a user
 
-### Synopsis
+### Usage
 
-Delete a user
 
 ```
 swiftwave delete-user [flags]
@@ -24,8 +21,3 @@ swiftwave delete-user [flags]
   -h, --help              help for delete-user
   -u, --username string   Username
 ```
-
-### SEE ALSO
-
-* [swiftwave](swiftwave.md)	 - SwiftWave is a self-hosted lightweight PaaS solution
-

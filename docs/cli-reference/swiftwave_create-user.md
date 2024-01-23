@@ -6,13 +6,9 @@ tags:
 sidebar_position: 6
 ---
 
-## swiftwave create-user
-
 Create a new user
 
-### Synopsis
-
-Create a new user
+### Usage
 
 ```
 swiftwave create-user [flags]
@@ -25,8 +21,3 @@ swiftwave create-user [flags]
   -p, --password string   Password
   -u, --username string   Username
 ```
-
-### SEE ALSO
-
-* [swiftwave](swiftwave.md)	 - SwiftWave is a self-hosted lightweight PaaS solution
-
