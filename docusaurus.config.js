@@ -164,6 +164,10 @@ const config = {
               {
                 label: "GraphQL API Reference",
                 to: "https://graphql.docs.swiftwave.org/"
+              },
+              {
+                label: "REST API Reference",
+                to: "https://github.com/swiftwave-org/swiftwave/blob/develop/docs/rest_api.md"
               }
             ],
           },
