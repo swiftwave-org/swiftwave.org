@@ -6,7 +6,7 @@ tags:
 sidebar_position: 2
 ---
 
-Disable Swiftwave service
+Disable Swiftwave daemon service
 
 ### Usage
 

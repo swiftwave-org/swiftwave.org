@@ -6,7 +6,7 @@ tags:
 sidebar_position: 4
 ---
 
-Prepare the environment for swiftwave
+Prepare the environment for installing SwiftWave.
 
 ### Usage
 

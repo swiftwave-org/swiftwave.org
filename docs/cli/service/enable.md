@@ -6,7 +6,7 @@ tags:
 sidebar_position: 1
 ---
 
-Enable a service
+Enable Swiftwave daemon service
 
 ### Usage
 

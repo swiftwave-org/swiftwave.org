@@ -6,7 +6,7 @@ tags:
 sidebar_position: 13
 ---
 
-Print info of swiftwave
+Print info of current Swiftwave installation
 
 ### Usage
 

@@ -14,7 +14,7 @@ Initialize the configuration for Swiftwave on the system.
 swiftwave init [flags]
 ```
 
-### Options
+### Flags
 
 
 | Flag       |   Type   |  Default |  Mandatory |     Description           |
