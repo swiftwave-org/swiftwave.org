@@ -90,23 +90,12 @@ const config = {
         },
       },
       announcementBar: {
-        id: 'funding',
-        content:
-          '🚧 This website is under development. All the documentation will be released soon.',
-      backgroundColor: '#FAF9F6',
-      textColor: '#091E42',
-      isCloseable: false,
-    },
-      algolia: {
-        appId: "WY65BML5H8",
-        apiKey: "a97eb71e909eda795440b5f86cd42381",
-        indexName: "docs",
-        contextualSearch: true,
-        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
-        replaceSearchResultPathname: {
-          from: "/docs/", // or as RegExp: /\/docs\//
-          to: "/",
-        },
+          id: 'funding',
+          content:
+            '🚧 This website is under development',
+        backgroundColor: '#FAF9F6',
+        textColor: '#091E42',
+        isCloseable: false,
       },
       navbar: {
         title: "SwiftWave",
