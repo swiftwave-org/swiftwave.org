@@ -142,33 +142,33 @@ const config = {
             items: [
               {
                 label: "SwiftWave Service",
-                href: "https://github.com/swiftwave-org/swiftwave",
+                to: "https://github.com/swiftwave-org/swiftwave",
               },
               {
                 label: "SwiftWave Dashboard",
-                href: "https://github.com/swiftwave-org/swiftwave-dashboard",
+                to: "https://github.com/swiftwave-org/dashboard",
               },
               {
-                label: "SwiftWave Website",
-                href: "https://github.com/swiftwave-org/swiftwave.org",
-              },
+                label: "Quick DNS",
+                to: "https://github.com/swiftwave-org/dns"
+              }
             ],
           },
           {
-            title: "Important Links",
+            title: "Documentation",
             items: [
               {
-                label: "Docs",
-                to: "/docs/intro",
+                label: "CLI Reference",
+                to: "/docs/cli",
               },
               {
-                label: "API Docs",
-                to: "https://apidocs.swiftwave.org",
+                label: "GraphQL API Reference",
+                to: "https://graphql.docs.swiftwave.org/"
               },
               {
-                label: "Blog",
-                to: "/blog",
-              },
+                label: "REST API Reference",
+                to: "https://github.com/swiftwave-org/swiftwave/blob/develop/docs/rest_api.md"
+              }
             ],
           },
           {
@@ -176,15 +176,15 @@ const config = {
             items: [
               {
                 label: "Join on Slack",
-                href: "https://join.slack.com/t/swiftwave-team/shared_invite/zt-21n86aslx-aAvBi3hv1GigVA_XoXiu4Q",
+                to: "https://join.slack.com/t/swiftwave-team/shared_invite/zt-21n86aslx-aAvBi3hv1GigVA_XoXiu4Q",
               },
               {
-                label: "GitHub Org",
-                href: "https://github.com/swiftwave-org",
+                label: "GitHub",
+                to: "https://github.com/swiftwave-org",
               },
               {
                 label: "Mail Us",
-                href: "mailto:support@swiftwave.org",
+                to: "mailto:support@swiftwave.org",
               },
             ],
           },
