@@ -104,23 +104,26 @@ const config = {
           src: "img/logo.svg",
         },
         items: [
-          // {
-          //   type: "docSidebar",
-          //   sidebarId: "docSidebar",
-          //   label: "Docs",
-          //   position: "left",
-          // },
+          {
+            type: "docSidebar",
+            sidebarId: "docSidebar",
+            label: "Docs",
+            position: "left",
+          },
           // {
           //   to: "blog/",
           //   activeBasePath: "blog/",
           //   label: "Blog",
           //   position: "left",
           // },
+          // {
+          //   type: "localeDropdown",
+          //   position: "right",
+          // },
           {
-            href: "https://github.com/swiftwave-org/swiftwave",
-            label: "GitHub",
-            position: "right",
-          },
+            type: 'custom-github-star-btn',
+            position: 'right'
+          }
         ],
       },
       footer: {
