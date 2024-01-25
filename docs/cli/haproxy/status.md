@@ -3,7 +3,7 @@ id: status
 title: swiftwave haproxy status
 tags:
   - CLI
-  - HaProxy
+  - HAProxy
 sidebar_position: 3
 ---
 

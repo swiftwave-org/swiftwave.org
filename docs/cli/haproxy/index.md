@@ -3,7 +3,7 @@ id: swiftwave-haproxy
 title: swiftwave haproxy
 tags:
   - CLI
-  - HaProxy
+  - HAProxy
 sidebar_position: 11
 ---
 

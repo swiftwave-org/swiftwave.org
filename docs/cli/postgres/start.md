@@ -3,6 +3,7 @@ id: start
 title: swiftwave postgres start
 tags:
   - CLI
+  - Database
 sidebar_position: 1
 ---
 

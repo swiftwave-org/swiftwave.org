@@ -3,6 +3,7 @@ id: stop
 title: swiftwave postgres stop
 tags:
   - CLI
+  - Database
 sidebar_position: 2
 ---
 

@@ -3,6 +3,7 @@ id: status
 title: swiftwave postgres status
 tags:
   - CLI
+  - Database
 sidebar_position: 3
 ---
 

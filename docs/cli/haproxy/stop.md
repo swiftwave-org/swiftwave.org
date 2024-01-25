@@ -3,7 +3,7 @@ id: stop
 title: swiftwave haproxy stop
 tags:
   - CLI
-  - HaProxy
+  - HAProxy
 sidebar_position: 2
 ---
 

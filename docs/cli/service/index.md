@@ -3,6 +3,7 @@ id: swiftwave-service
 title: swiftwave service
 tags:
   - CLI
+  - Swiftwave Service
 sidebar_position: 10
 ---
 

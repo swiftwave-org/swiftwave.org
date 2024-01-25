@@ -3,7 +3,7 @@ id: start
 title: swiftwave haproxy start
 tags:
   - CLI
-  - HaProxy
+  - HAProxy
 sidebar_position: 1
 ---
 

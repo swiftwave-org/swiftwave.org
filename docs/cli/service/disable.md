@@ -3,6 +3,7 @@ id: disable
 title: swiftwave service disable
 tags:
   - CLI
+  - Swiftwave Service
 sidebar_position: 2
 ---
 
