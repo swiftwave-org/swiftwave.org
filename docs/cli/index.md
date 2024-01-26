@@ -3,7 +3,7 @@ id: cli
 title: CLI Reference
 tags:
   - CLI
-# sidebar_position: 2
+sidebar_position: 4
 ---
 
 SwiftWave CLI acts like a management panel for SwiftWave.
