@@ -105,9 +105,18 @@ const config = {
         },
         items: [
           {
-            type: "docSidebar",
-            sidebarId: "docSidebar",
-            label: "Docs",
+            to: "/docs",
+            label: "Introduction",
+            position: "left",
+          },
+          {
+            to: "/docs/why_swiftwave",
+            label: "Why SwiftWave?",
+            position: "left",
+          },
+          {
+            to: "/docs/cli",
+            label: "CLI Docs",
             position: "left",
           },
           // {
