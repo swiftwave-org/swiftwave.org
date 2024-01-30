@@ -23,14 +23,14 @@ SwiftWave Dashboard is a web-based interface to manage your applications, domain
 ## Sections of Dashboard
 | Section | Description | Link |
 | --- | --- | --- |
-| 🔨 Deploy New Application | Deploy new application on your server | [***Click Here***](/docs/deploy-new-application) |
-| 📦 Applications | List of all applications deployed on your server & manage them | [***Click Here***](/docs/applications) |
-| 📦 Persistent Volumes | List of all persistent volumes created on your server & manage them | [***Click Here***](/docs/persistent-volumes) |
-| 🐙 Git Credentials | Manage git credentials for your applications | [***Click Here***](/docs/git-credentials) |
-| 🐳 Image Credentials | Manage docker image credentials for your applications | [***Click Here***](/docs/image-credentials) | 
-| 🌐 Domains | Manage custom domains, SSL for your applications | [***Click Here***](/docs/domains) |
-| 🚪 Ingress Rules | Manage exposed domains and routes for your applications | [***Click Here***](/docs/ingress-rules) |
-| 🔄 Redirect Rules | Manage domain redirection and HTTPS redirection for your applications | [***Click Here***](/docs/redirect-rules) |
-| 👥 Manage Users | Manage admin users for your hosted SwiftWave instance | [***Click Here***](/docs/manage-users) |
-| 🔒 Change Password | Change password for currently logged In user | [***Click Here***](/docs/change-password) |
+| 🔨 Deploy New Application | Deploy new application on your server | [***Click Here***](/docs/dashboard/deploy-new-application) |
+| 📦 Applications | List of all applications deployed on your server & manage them | [***Click Here***](/docs/dashboard/applications) |
+| 📦 Persistent Volumes | List of all persistent volumes created on your server & manage them | [***Click Here***](/docs/dashboard/persistent-volumes) |
+| 🐙 Git Credentials | Manage git credentials for your applications | [***Click Here***](/docs/dashboard/git-credentials) |
+| 🐳 Image Credentials | Manage docker image credentials for your applications | [***Click Here***](/docs/dashboard/image-credentials) | 
+| 🌐 Domains | Manage custom domains, SSL for your applications | [***Click Here***](/docs/dashboard/domains) |
+| 🚪 Ingress Rules | Manage exposed domains and routes for your applications | [***Click Here***](/docs/dashboard/ingress-rules) |
+| 🔄 Redirect Rules | Manage domain redirection and HTTPS redirection for your applications | [***Click Here***](/docs/dashboard/redirect-rules) |
+| 👥 Manage Users | Manage admin users for your hosted SwiftWave instance | [***Click Here***](/docs/dashboard/manage-users) |
+| 🔒 Change Password | Change password for currently logged In user | [***Click Here***](/docs/dashboard/change-password) |
 
