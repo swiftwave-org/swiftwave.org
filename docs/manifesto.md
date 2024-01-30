@@ -1,10 +1,10 @@
 ---
 id: manifesto
-title: 🚀 SwiftWave Manifesto
+title: 🌱 SwiftWave Manifesto
 sidebar_position: 3
 ---
 
-# 🚀 SwiftWave Manifesto
+# 🌱 SwiftWave Manifesto
 
 SwiftWave, our self-hosted PaaS marvel, is here to make deploying and managing your applications on any VPS a breeze! 🌐
 

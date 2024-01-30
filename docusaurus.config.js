@@ -106,17 +106,22 @@ const config = {
         items: [
           {
             to: "/docs",
-            label: "Introduction",
+            label: "📚 Docs",
             position: "left",
           },
           {
-            to: "/docs/why_swiftwave",
-            label: "Why SwiftWave?",
+            to: "/docs/getting_started",
+            label: "🚀 Getting Started",
+            position: "left",
+          },
+          {
+            to: "/docs/dashboard",
+            label: "🖥️ Dashboard",
             position: "left",
           },
           {
             to: "/docs/cli",
-            label: "CLI Docs",
+            label: "💻 CLI",
             position: "left",
           },
           // {
@@ -130,9 +135,14 @@ const config = {
           //   position: "right",
           // },
           {
+            to: "/docs/manifesto",
+            label: "🌱 Manifesto",
+            position: "right",
+          },
+          {
             type: 'custom-github-star-btn',
             position: 'right'
-          }
+          },
         ],
       },
       footer: {
