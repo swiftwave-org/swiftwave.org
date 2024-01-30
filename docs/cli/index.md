@@ -1,6 +1,6 @@
 ---
 id: cli
-title: CLI Reference
+title: 💻 CLI Reference
 tags:
   - CLI
 sidebar_position: 6
