@@ -4,8 +4,6 @@ title: 🚀 Getting Started
 sidebar_position: 4
 ---
 
-# 🚀 Getting Started
-
 Let's get started with SwiftWave!
 Let's first install SwiftWave on your server. Because without SwiftWave, you can't deploy your applications. 😅
 

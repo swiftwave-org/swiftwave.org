@@ -5,7 +5,6 @@ hide_table_of_contents: true
 sidebar_position: 5
 ---
 
-# 🖥️ SwiftWave Dashboard
 <div style={{
     display: 'flex',
     justifyContent: 'center',

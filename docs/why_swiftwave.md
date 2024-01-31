@@ -4,8 +4,6 @@ title: 🌊 Why SwiftWave ?
 sidebar_position: 2
 ---
 
-# 🌊 Why SwiftWave?
-
 Hey there! 🚀 Ever wondered why there's yet another PaaS cloud orchestration tool in the sea of options? Let's dive into the story behind SwiftWave.
 
 In a world of k8s, k3s, and various orchestrators designed for the big league, what about the small players? Not everyone needs a massive k8s cluster for a petite application. I mean, seriously, a k8s master node demands 2GB of RAM and 2 vCPUs just for starters! ([**Ref**](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)) That's a bit much, especially if you're just starting out and finding your feet.

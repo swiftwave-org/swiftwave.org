@@ -1,10 +1,8 @@
 ---
-id: deploy-new-application
+id: deploy_new_application
 title: 🔨 Deploy New Application
 sidebar_position: 1
 ---
-
-# 🔨 Deploy New Application
 
 ### 📝 Pre-requisites
 Deploying with SwiftWave is a breeze – just bring your application's source code, and SwiftWave handles everything else.
