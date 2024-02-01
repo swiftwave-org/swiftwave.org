@@ -15,9 +15,10 @@ SwiftWave, our self-hosted PaaS marvel, is here to make deploying and managing y
 **Target Users:**
 - Students 🎓
 - Developers 👩‍💻👨‍💻
-- Small to Medium Size Businesses 🏢
+- Hobbyists 🎨
+- Small Businesses 🏢
 
-We're not here for the big leagues. Looking to deploy a massive application with lakhs of concurrent users? SwiftWave might not be your cup of tea.
+We're not here for the big companies. Looking to deploy a massive application with lakhs of concurrent users? SwiftWave might not be correct choice for you.
 
 SwiftWave is designed with two modes to cater to both small and medium-sized applications.
 
@@ -31,4 +32,6 @@ In standalone mode, configure with any remote postgres, rabbitmq, or redis. But 
 
 This architecture keeps resource usage low for small apps and scales effortlessly for medium-sized ones with SwiftWave's cluster mode.
 
-No matter what, we're committed to keeping it simple and lightweight. Picture this: on a 1GB RAM 1vCPU VPS, SwiftWave lets you deploy 2-3 applications with ease. Small to medium-sized businesses? They can confidently deploy their applications with SwiftWave's cluster mode. Let's keep it swift, simple, and sensational! 🚀🌟
+No matter what, we're committed to keeping it simple and lightweight. 
+
+Picture this: on a 1GB RAM 1vCPU VPS, SwiftWave lets you deploy 2-3 applications with ease. Small businesses? They can confidently deploy their applications with SwiftWave's cluster mode. Let's keep it swift, simple, and sensational! 🚀🌟

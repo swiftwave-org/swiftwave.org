@@ -28,13 +28,9 @@ Deploying with SwiftWave is a breeze – just bring your application's source co
 13. Your application will be deployed in a few minutes. 🚀
 14. You can check the build logs and status in the same page.
 
-### 🎬 Check Tutorial Video
-> 📌 If you have understood the above steps, you can skip this video.
-
-
 
 ### 📚 Next Steps
-- [**How to expose application to internet ?**](/docs)
-- [**How to configure persistent storage ?**](/docs)
-- [**How to configure environment variables ?**](/docs)
-- [**Guide on how to view information about a deployed application.**](/docs)
+- [**How to check details and manage a deployed application**](/docs/dashboard/application_details/)
+- [**How to expose application to internet ?**](/docs/dashboard/ingress-rules)
+- [**How to configure persistent storage ?**](/docs/dashboard/application_details/persistent_volumes)
+- [**How to configure environment variables ?**](/docs/dashboard/application_details/environment_variables)
