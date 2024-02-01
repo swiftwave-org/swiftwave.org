@@ -124,6 +124,11 @@ const config = {
             label: "💻 CLI",
             position: "left",
           },
+          {
+            to: "/docs/contribution_guideline",
+            label: "🤝 Contribution",
+            position: "left",
+          },
           // {
           //   to: "blog/",
           //   activeBasePath: "blog/",
@@ -149,23 +154,6 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Source Code",
-            items: [
-              {
-                label: "SwiftWave Service",
-                to: "https://github.com/swiftwave-org/swiftwave",
-              },
-              {
-                label: "SwiftWave Dashboard",
-                to: "https://github.com/swiftwave-org/dashboard",
-              },
-              {
-                label: "Quick DNS",
-                to: "https://github.com/swiftwave-org/dns"
-              }
-            ],
-          },
-          {
             title: "Documentation",
             items: [
               {
@@ -183,11 +171,28 @@ const config = {
             ],
           },
           {
+            title: "Source Code",
+            items: [
+              {
+                label: "SwiftWave Service",
+                to: "https://github.com/swiftwave-org/swiftwave",
+              },
+              {
+                label: "SwiftWave Dashboard",
+                to: "https://github.com/swiftwave-org/dashboard",
+              },
+              {
+                label: "Quick DNS",
+                to: "https://github.com/swiftwave-org/dns"
+              }
+            ],
+          },
+          {
             title: "Community",
             items: [
               {
                 label: "Join on Slack",
-                to: "https://join.slack.com/t/swiftwave-team/shared_invite/zt-21n86aslx-aAvBi3hv1GigVA_XoXiu4Q",
+                to: "https://slack.swiftwave.org/",
               },
               {
                 label: "GitHub",
