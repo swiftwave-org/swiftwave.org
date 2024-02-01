@@ -1,7 +1,7 @@
 ---
 id: deploy_new_application
 title: 🔨 Deploy New Application
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 ### 📝 Pre-requisites
