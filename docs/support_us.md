@@ -10,7 +10,7 @@ SwiftWave is an exciting early-stage project, and we're eager to enhance it with
 
 1. **Use SwiftWave in Your Projects** : Utilize SwiftWave for your projects and provide valuable feedback. Your input is crucial in refining and perfecting our platform.
 2. **Contribute to the Open Source Community** :  Join our open-source community by contributing your skills. Whether you're fixing bugs, adding features, enhancing documentation, or creating content like articles and videos, your contributions are highly welcome.
-3. **Sponsor SwiftWave**: Financial support is pivotal in keeping the development momentum alive. You can sponsor us on [**@GitHub Sponsors**](https://github.com/sponsors/swiftwave-org) or [**@Open Collective**](https://opencollective.com/swiftwave). Your sponsorship enables us to continue innovating and working on exciting new projects.
+3. **Sponsor SwiftWave**: Financial support is pivotal in keeping the development momentum alive. You can sponsor us on [**@Open Collective**](https://opencollective.com/swiftwave). Your sponsorship enables us to continue innovating and working on exciting new projects.
 
 ### Show Your Love: Star SwiftWave on GitHub ⭐
 Let's spread the word and keep the motivation flowing! Give SwiftWave a star on GitHub to make it more discoverable and to express your support.
