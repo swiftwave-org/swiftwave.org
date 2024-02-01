@@ -22,6 +22,7 @@ SwiftWave Dashboard is a web-based interface to manage your applications, domain
 ## Sections of Dashboard
 | Section | Description | Link |
 | --- | --- | --- |
+| 🔒 Log In | Log in to SwiftWave Dashboard | [***Click Here***](/docs/dashboard/log_in) |
 | 🔨 Deploy New Application | Deploy new application on your server | [***Click Here***](/docs/dashboard/deploy_new_application) |
 | 📦 Applications | List of all applications deployed on your server & manage them | [***Click Here***](/docs/dashboard/applications) |
 | 📦 Persistent Volumes | List of all persistent volumes created on your server & manage them | [***Click Here***](/docs/dashboard/persistent-volumes) |
