@@ -126,7 +126,7 @@ const config = {
           },
           {
             to: "/docs/contribution_guideline",
-            label: "🤝 Contribution",
+            label: "🤝 Contribute",
             position: "left",
           },
           // {
