@@ -28,10 +28,6 @@ Deploying with SwiftWave is a breeze – just bring your application's source co
 13. Your application will be deployed in a few minutes. 🚀
 14. You can check the build logs and status in the same page.
 
-### 🎬 Check Tutorial Video
-> 📌 If you have understood the above steps, you can skip this video.
-
-
 
 ### 📚 Next Steps
 - [**How to expose application to internet ?**](/docs)
