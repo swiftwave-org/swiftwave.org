@@ -89,14 +89,14 @@ const config = {
           },
         },
       },
-      announcementBar: {
-          id: 'funding',
-          content:
-            '🚧 This website is under development',
-        backgroundColor: '#FAF9F6',
-        textColor: '#091E42',
-        isCloseable: false,
-      },
+      // announcementBar: {
+      //     id: 'funding',
+      //     content:
+      //       '🚧 This website is under development',
+      //   backgroundColor: '#FAF9F6',
+      //   textColor: '#091E42',
+      //   isCloseable: false,
+      // },
       navbar: {
         title: "SwiftWave",
         logo: {
@@ -127,6 +127,11 @@ const config = {
           {
             to: "/docs/contribution_guideline",
             label: "🤝 Contribute",
+            position: "left",
+          },
+          {
+            to: "/docs/support_us",
+            label: "✨ Support Us",
             position: "left",
           },
           // {
@@ -224,6 +229,13 @@ const config = {
           type: "expanded_bubble",
           launcherTitle: "Need Help",
         },
+      },
+      algolia: {
+        appId: '1PTIIXB1YZ',
+        apiKey: '1693e450556e94deec27f9e7cd320d4c',
+        indexName: 'swiftwave',
+        insights: true,
+        contextualSearch: true,
       },
     }),
 };
