@@ -225,6 +225,13 @@ const config = {
           launcherTitle: "Need Help",
         },
       },
+      algolia: {
+        appId: '1PTIIXB1YZ',
+        apiKey: '1693e450556e94deec27f9e7cd320d4c',
+        indexName: 'swiftwave',
+        insights: true,
+        contextualSearch: true,
+      },
     }),
 };
 
