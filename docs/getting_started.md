@@ -57,7 +57,7 @@ Let's first install SwiftWave on your server. Because without SwiftWave, you can
 6. 🕒 Time for setup!
 7. Initialize Docker Swarm
     ```bash
-    docker swarm init
+    sudo docker swarm init
     ```
 8. Initialize SwiftWave configuration. Run following command and provide required information.
     ```bash
