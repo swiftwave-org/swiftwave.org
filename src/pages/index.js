@@ -8,7 +8,7 @@ import HeaderImage from "../img/swiftwave-header.png"
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout wrapperClassName="bg-gray-900" description="Description will go into a meta tag in <head />">
+    <Layout wrapperClassName="bg-gray-900">
       <main className="flex flex-col items-center justify-center px-4">
         {/* Header */}
         <section className="max-w-screen-xl flex flex-col items-center justify-center py-8">

@@ -19,7 +19,6 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
-
   presets: [
     [
       "classic",
@@ -74,6 +73,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {name: 'title', content: 'SwiftWave'},
+        {name: 'description', content: 'SwiftWave is a self-hosted open source lightweight PaaS solution. It is designed to be easy to use and deploy applications.'},
+        {name: 'og:image', content: '/img/banner.png'},
+        {name: 'og:title', content: 'SwiftWave'},
+        {name: 'og:description', content: 'SwiftWave is a self-hosted open source lightweight PaaS solution. It is designed to be easy to use and deploy applications.'},
+        {name: 'keywords', content: 'deployment, application, hosting, vps, docker, swarm, ssl',},
+        {name: 'twitter:card', content: '/img/banner.png'},
+      ], 
       colorMode: {
         defaultMode: "dark",
         disableSwitch: true,
