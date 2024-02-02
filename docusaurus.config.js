@@ -89,14 +89,14 @@ const config = {
           },
         },
       },
-      announcementBar: {
-          id: 'funding',
-          content:
-            '🚧 This website is under development',
-        backgroundColor: '#FAF9F6',
-        textColor: '#091E42',
-        isCloseable: false,
-      },
+      // announcementBar: {
+      //     id: 'funding',
+      //     content:
+      //       '🚧 This website is under development',
+      //   backgroundColor: '#FAF9F6',
+      //   textColor: '#091E42',
+      //   isCloseable: false,
+      // },
       navbar: {
         title: "SwiftWave",
         logo: {
@@ -127,6 +127,11 @@ const config = {
           {
             to: "/docs/contribution_guideline",
             label: "🤝 Contribute",
+            position: "left",
+          },
+          {
+            to: "/docs/support_us",
+            label: "✨ Support Us",
             position: "left",
           },
           // {

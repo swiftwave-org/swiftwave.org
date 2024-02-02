@@ -16,11 +16,9 @@ export default function Home() {
           {/* Tagline */}
           <p className="text-2xl lg:text-4xl mt-12 mb-6"><b className="text-[#805AD5]">SwiftWave :</b> Your self-hosted lightweight PaaS solution</p>
           {/* Buttons */}
-          <div className="flex flex-row flex-wrap	gap-4 mt-5">
-            <a className="button button--outline button--secondary" href="/docs/getting_started">🚀 Getting Started</a>
-            <a className="button button--outline button--secondary" href="https://github.com/swiftwave-org/swiftwave" target="_blank">⭐ Star in GitHub</a>
-            <a className="button button--outline button--secondary" href="/docs/contribution_guideline" target="_blank">🤝 Contribute</a>
-            <a className="button button--outline button--secondary" href="/docs/support_us" target="_blank">✨ Support Development</a>
+          <div className="flex flex-col lg:flex-row flex-wrap	gap-4 mt-5 w-full lg:w-fit">
+            <a className="button button--outline button--secondary button--lg" href="/docs/getting_started">🚀 Getting Started</a>
+            <a className="button button--outline button--secondary button--lg" href="https://github.com/swiftwave-org/swiftwave" target="_blank">⭐ Star in GitHub</a>
           </div>
         </section>
         {/* For Whom ? */}
