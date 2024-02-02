@@ -30,9 +30,18 @@ Let's first install SwiftWave on your server. Because without SwiftWave, you can
 1. SSH into your server.
 
 2. Download SwiftWave binary
-    ```bash
+   - For **AMD64** Architecture
+   ```bash
     curl -L https://github.com/swiftwave-org/swiftwave/releases/download/1.0.0/swiftwave-1.0.0-linux-amd64.tar.gz -o swiftwave.tar.gz
-    ```
+   ```
+   - For **ARM64** Architecture
+   ```bash
+    curl -L https://github.com/swiftwave-org/swiftwave/releases/download/1.0.0/swiftwave-1.0.0-linux-arm64.tar.gz -o swiftwave.tar.gz
+   ```
+   - For **386** Architecture
+   ```bash
+    curl -L https://github.com/swiftwave-org/swiftwave/releases/download/1.0.0/swiftwave-1.0.0-linux-386.tar.gz -o swiftwave.tar.gz
+   ```
 3. Extract the gzip archive
     ```bash
     tar -xzf swiftwave.tar.gz
