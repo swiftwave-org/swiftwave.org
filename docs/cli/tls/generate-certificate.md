@@ -1,9 +1,9 @@
 ---
-id: generate-tls
-title: swiftwave generate-tls
+id: generate-certificate
+title: swiftwave tls generate-certificate
 tags:
   - CLI
-sidebar_position: 8
+sidebar_position: 3
 ---
 
 Generate TLS certificates for swiftwave endpoints
@@ -14,7 +14,7 @@ Generate TLS certificates for swiftwave endpoints
 ### Usage
 
 ```
-swiftwave generate-tls [flags]
+swiftwave tls generate-certificate [flags]
 ```
 
 ### Flags
