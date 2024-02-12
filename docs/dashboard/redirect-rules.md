@@ -19,7 +19,7 @@ It's very easy to add a redirect rule. Just click on **Add New** button and you 
 
 ![Add Redirect Rule](/assets/create-redirect-rule.png)
 
-1. Choose the domain you want to redirect.
+1. Choose the protocol (http/https) and domain you want to redirect.
 2. Choose the url where you want to redirect your domain.
 3. Click on **Register** button and you are done.
 
