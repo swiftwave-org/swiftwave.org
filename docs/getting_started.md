@@ -79,7 +79,7 @@ Let's first install SwiftWave on your server. Because without SwiftWave, you can
     ```bash
     sudo swiftwave generate-tls
     ```
-13. Start HaProxy Service
+13. Start HAProxy Service
     ```bash
     sudo swiftwave haproxy start
     ```
@@ -91,12 +91,16 @@ Let's first install SwiftWave on your server. Because without SwiftWave, you can
     ```bash
     sudo swiftwave auto-updater enable
     ```
-16. Create a new admin user
+16. Enable auto renew service for service TLS certificates
+    ```bash
+    sudo swiftwave tls auto-renew enable
+    ```
+17. Create a new admin user
     ```bash
     sudo swiftwave create-user --username <give_a_username> --password <give_a_strong_password>
     ```
-17. 🎉 Congratulations! SwiftWave is now installed on your server. 
-18. You can now access SwiftWave at `https://<your_domain>:3333`
+18. 🎉 Congratulations! SwiftWave is now installed on your server. 
+19. You can now access SwiftWave at `https://<your_domain>:3333`
 > Note: You have forget the auto-generated domain 😅 anyhow ? This is how you can get it back.
 > - Suppose your server IP is `3.5.12.13`, then your domain will be `ip-3-5-12-13.swiftwave.xyz`
 > - You have added a custom domain `example.com`, then you can use that domain to access SwiftWave on port 3333.
