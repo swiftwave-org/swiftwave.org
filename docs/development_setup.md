@@ -67,12 +67,9 @@ Let's get started with SwiftWave Development Setup!
     go run . db-migrate
     ```
 10.  Disable TLS for SwiftWave Development Setup
-     - Open swiftwave config file
-       ```bash
-       go run . config -e nano
-       ```
-     - Set `service.use_tls` to `false`
-     - Save and exit
+    ```bash
+    go run . tls disable
+    ```
 11.  Start HaProxy Service
     ```bash
     go run . haproxy start
