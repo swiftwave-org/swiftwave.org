@@ -118,21 +118,6 @@ const config = {
             position: "left",
           },
           {
-            to: "/docs/getting_started",
-            label: "🚀 Getting Started",
-            position: "left",
-          },
-          {
-            to: "/docs/dashboard",
-            label: "🖥️ Dashboard",
-            position: "left",
-          },
-          {
-            to: "/docs/cli",
-            label: "💻 CLI",
-            position: "left",
-          },
-          {
             to: "/docs/contribution_guideline",
             label: "🤝 Contribute",
             position: "left",
