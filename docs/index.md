@@ -30,6 +30,7 @@ Experience the ease of deployment and management with SwiftWave! 🌊
 - **Flexible Restart**: Restart your application at your convenience 🔄
 - **Scaling Made Easy**: Scale your application effortlessly with just one click 🔍
 - **Log Insight**: Easily check logs for your application 📋
+- **Backup & Restore**: Backup and restore your application with just one click 🔄
 
 ### 🛣️ Traffic Control
 - **Custom Domains**: Add custom domains and auto-issue SSL certificates with just one click 🔒
