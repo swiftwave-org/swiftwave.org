@@ -114,17 +114,17 @@ const config = {
         items: [
           {
             to: "/docs",
-            label: "📚 Docs",
+            label: "Docs",
             position: "left",
           },
           {
             to: "/docs/contribution_guideline",
-            label: "🤝 Contribute",
+            label: "Contribute",
             position: "left",
           },
           {
             to: "/docs/support_us",
-            label: "✨ Support Us",
+            label: "Support Us",
             position: "left",
           },
           // {
@@ -137,11 +137,11 @@ const config = {
           //   type: "localeDropdown",
           //   position: "right",
           // },
-          {
-            to: "/docs/manifesto",
-            label: "🌱 Manifesto",
-            position: "right",
-          },
+          // {
+          //   to: "/docs/manifesto",
+          //   label: "🌱 Manifesto",
+          //   position: "right",
+          // },
           {
             type: 'custom-github-star-btn',
             position: 'right'
