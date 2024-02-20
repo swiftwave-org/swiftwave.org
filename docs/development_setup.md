@@ -74,16 +74,20 @@ Let's get started with SwiftWave Development Setup!
     ```bash
     go run . haproxy start
     ```
-12.  Create a new admin user with username **admin** and password also **admin**
+12.  Start UDP Proxy Service
+    ```bash
+    go run . udpproxy start
+    ```
+13.  Create a new admin user with username **admin** and password also **admin**
     ```bash
     go run . create-user -u admin -p admin
     ```
-13. Start SwiftWave
+14. Start SwiftWave
     ```bash
     go run . start --dev
     ```
-14. 🎉 Congratulations! You have successfully setup SwiftWave for local development
-15. You can now access SwiftWave at `http://localhost:3333`
+15. 🎉 Congratulations! You have successfully setup SwiftWave for local development
+16. You can now access SwiftWave at `http://localhost:3333`
 
 ## Access GraphQL Playground
 1. Use Login Endpoint for generating a JWT Token.

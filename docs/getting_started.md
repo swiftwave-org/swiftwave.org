@@ -13,7 +13,8 @@ Let's first install SwiftWave on your server. Because without SwiftWave, you can
 3. Install curl, git, unzip and tar utilities.
     ```bash
     # For Debian/Ubuntu based distros:
-    sudo apt install curl git unzip tar
+    sudo apt update -y
+    sudo apt install curl git unzip tar -y
 
     # For Fedora based distros:
     sudo dnf install curl git unzip tar
@@ -77,31 +78,52 @@ Let's first install SwiftWave on your server. Because without SwiftWave, you can
     ```
 12. Generate SSL certificate for primary domain
     ```bash
-    sudo swiftwave generate-tls
+    sudo swiftwave tls generate-certificate
     ```
+    :::tip
+    If you are installing in a system which doesn't have any public ip, then you can skip this step and disable tls.
+
+    Run the following command to disable tls.
+    ```bash title="Disable TLS"
+    sudo swiftwave tls disable
+    ```
+    :::
 13. Start HAProxy Service
     ```bash
     sudo swiftwave haproxy start
     ```
-14. Start SwiftWave Service
+14. Start UDP Proxy Service
+    ```bash
+    sudo swiftwave udpproxy start
+    ```
+15. Start SwiftWave Service
     ```bash
     sudo swiftwave service enable
     ```
-15. Enable auto updater for SwiftWave
+16. Enable auto updater for SwiftWave
     ```bash
     sudo swiftwave auto-updater enable
     ```
-16. Enable auto renew service for service TLS certificates
+17. Enable auto renew service for service TLS certificates
     ```bash
     sudo swiftwave tls auto-renew enable
     ```
-17. Create a new admin user
+18. Create a new admin user
     ```bash
     sudo swiftwave create-user --username <give_a_username> --password <give_a_strong_password>
     ```
-18. 🎉 Congratulations! SwiftWave is now installed on your server. 
-19. You can now access SwiftWave at `https://<your_domain>:3333`
-> Note: You have forget the auto-generated domain 😅 anyhow ? This is how you can get it back.
-> - Suppose your server IP is `3.5.12.13`, then your domain will be `ip-3-5-12-13.swiftwave.xyz`
-> - You have added a custom domain `example.com`, then you can use that domain to access SwiftWave on port 3333.
+19. 🎉 Congratulations! SwiftWave is now installed on your server. 
+20. You can now access SwiftWave at `https://<your_domain>:3333`
 
+:::info
+
+You have forget or missed the auto-generated domain 😅 anyhow ? This is how you can get it back.
+ - Suppose your server IP is `3.5.12.13`, then your domain will be `ip-3-5-12-13.swiftwave.xyz`
+ - You have added a custom domain `example.com`, then you can use that domain to access it on https://example.com:3333.
+ - Other way is open the config file by this command
+    ```bash
+    sudo swiftwave config -e vim
+    ```
+    and check the `service.address_of_current_node` field in the config file.
+
+:::
