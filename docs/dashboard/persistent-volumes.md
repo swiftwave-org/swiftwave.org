@@ -9,10 +9,26 @@ In **Persistent Volumes** section, you can see all the persistent volumes create
 ![Persistent Volume List](/assets/persistent-volumes.png)
 
 ### Create a Persistent Volume
-1. Click on `Add New` button.
-2. Put a name for the persistent volume.
-   > Note : The name should be unique and can't contain spaces.
-3. Submit.
+1. **Local Volume**
+   Local volume is a volume that is created on the local storage of the node. It is not shared across the cluster.
+
+   - Click on `Add New` button.
+   - ![Local Volume](/assets/create-local-volume.png)
+   - Choose a unique name for the volume and can't contain spaces.
+   - Choose type `Local`.
+   - Click on `Register` button and the volume will be created.
+
+2. **NFS Volume**
+   You can create a NFS volume to share the volume across the cluster and also to keep your data more reliable.
+
+   - Click on `Add New` button.
+   - ![NFS Volume](/assets/create-nfs-volume.png)
+   - Choose a unique name for the volume and can't contain spaces.
+   - Choose type `NFS`.
+   - Fillup NFS server details.
+     > Note : Duly check the NFS server details before submitting. You can't change the NFS server details once the volume is created.
+   - Click on `Register` button and the volume will be created.
+
 
 ### Delete a Persistent Volume
 Just click on `Delete` button to delete a persistent volume.

@@ -2,6 +2,7 @@
 id: application_details
 title: 📋 Application Details
 sidebar_position: 4
+toc_max_heading_level: 5
 ---
 
 In **Application Details**, you can see all the details about the application. You can check the status of the application, last time when it was updated, and the number of instances running for that application.
@@ -10,7 +11,15 @@ In **Application Details**, you can see all the details about the application. Y
 
 On the right side, you can see realtime information about the count of active instances of the application.
 
-🏄‍♂️ Let's go through each section of the **Application Details** page.
+#### ⏸️ Pause App
+
+If you like to make your application offline, you can pause the application. This will stop all the instances of the application and will free up the resources.
+
+#### ▶️ Resume App
+
+If you like to make your application online, you can resume the application. This will start all the instances of the application and you will be able to access the application within a few seconds.
+
+#### 🏄‍♂️ Let's go through each section of the **Application Details** page.
 
 | Section | Page Link |
 |---------|-----------|
