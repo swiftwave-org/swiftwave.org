@@ -17,7 +17,7 @@ Built on robust foundations:
 Experience the ease of deployment and management with SwiftWave! 🌊
 
 ### 🏰 System Architecture Overview
-![Architecture](/img/architecture.gif)
+<img src="/img/architecture.gif" />
 
 ### 🚀 Deployment Options
 - **Source Freedom**: Deploy your app from any git source (Github, Gitlab, etc.) 🌐 (Supports public and private repositories)
