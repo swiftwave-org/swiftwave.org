@@ -21,3 +21,8 @@
 .markdown header h1 {
   --ifm-h1-font-size: 2rem!important;
 }
+
+img {
+  width: auto;
+  height: auto;
+}

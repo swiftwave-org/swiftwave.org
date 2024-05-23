@@ -90,6 +90,11 @@ const config = {
         { name: 'keywords', content: 'deployment, application, hosting, vps, docker, swarm, ssl', },
         { name: 'twitter:card', content: '/img/banner.png' },
       ],
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
       colorMode: {
         defaultMode: "dark",
         disableSwitch: true,
