@@ -1,6 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+import versions from './versions.json';
+
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
@@ -29,6 +31,12 @@ const config = {
           editUrl: ({ docPath }) => {
             const nextVersionDocsDirPath = "docs";
             return `https://github.com/swiftwave-org/swiftwave.org/edit/main/${nextVersionDocsDirPath}/${docPath}`;
+          },
+          disableVersioning: false,
+          versions: {
+            current: {
+              label: `Develop 🚧`,
+            },
           },
         },
         blog: {
@@ -74,14 +82,14 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [
-        {name: 'title', content: 'SwiftWave'},
-        {name: 'description', content: 'SwiftWave is a self-hosted open source lightweight PaaS solution. It is designed to be easy to use and deploy applications.'},
-        {name: 'og:image', content: '/img/banner.png'},
-        {name: 'og:title', content: 'SwiftWave'},
-        {name: 'og:description', content: 'SwiftWave is a self-hosted open source lightweight PaaS solution. It is designed to be easy to use and deploy applications.'},
-        {name: 'keywords', content: 'deployment, application, hosting, vps, docker, swarm, ssl',},
-        {name: 'twitter:card', content: '/img/banner.png'},
-      ], 
+        { name: 'title', content: 'SwiftWave' },
+        { name: 'description', content: 'SwiftWave is a self-hosted open source lightweight PaaS solution. It is designed to be easy to use and deploy applications.' },
+        { name: 'og:image', content: '/img/banner.png' },
+        { name: 'og:title', content: 'SwiftWave' },
+        { name: 'og:description', content: 'SwiftWave is a self-hosted open source lightweight PaaS solution. It is designed to be easy to use and deploy applications.' },
+        { name: 'keywords', content: 'deployment, application, hosting, vps, docker, swarm, ssl', },
+        { name: 'twitter:card', content: '/img/banner.png' },
+      ],
       colorMode: {
         defaultMode: "dark",
         disableSwitch: true,
@@ -142,6 +150,11 @@ const config = {
           //   label: "🌱 Manifesto",
           //   position: "right",
           // },
+          {
+            type: 'docsVersionDropdown',
+            position: 'right',
+            dropdownActiveClassDisabled: true,
+          },
           {
             type: 'custom-github-star-btn',
             position: 'right'
