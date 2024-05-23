@@ -1,0 +1,5 @@
+/*
+  X-Frame-Options: DENY
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline';
+  Referrer-Policy: origin
+  X-Content-Type-Options: nosniff
