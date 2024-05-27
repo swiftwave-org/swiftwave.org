@@ -4,19 +4,20 @@
  * work well for content-centric websites.
  */
 
+
+ @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 @tailwind utilities;
 
-/* [data-theme='dark'] {
-  --ifm-color-primary: #af8aff;
-  --ifm-color-primary-dark: #9463ff;
-  --ifm-color-primary-darker: #8f5bff;
-  --ifm-color-primary-darkest: #8147ff;
-  --ifm-color-primary-light: #cab1ff;
-  --ifm-color-primary-lighter: #d7c5ff;
-  --ifm-color-primary-lightest: #ffffff;
-  --ifm-background-color: #111827;
-  --ifm-navbar-background-color: #111827;
-} */
+[data-theme='light'] {
+  --ifm-color-primary-light: #ede9fe;
+  --ifm-color-primary-lighter: #c4b5fd;
+  --ifm-color-primary-lightest: #a78bfa;
+  --ifm-color-primary: #8b5cf6;
+  --ifm-color-primary-dark: #7c3aed;
+  --ifm-color-primary-darker: #5b21b6;
+  --ifm-color-primary-darkest: #4c1d95;
+}
 
 .markdown header h1 {
   --ifm-h1-font-size: 2rem!important;
@@ -25,4 +26,22 @@
 img {
   width: auto;
   height: auto;
+}
+
+.custom-navbar-link {
+  @apply font-Roboto text-base font-medium md:font-normal md:text-lg text-black;
+  text-decoration: none!important;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+
+::-webkit-scrollbar-track {
+  @apply rounded-md bg-gray-200;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-md bg-primary-500;
 }

@@ -37,9 +37,7 @@ const config = {
             },
           },
         },
-        blog: {
-          showReadingTime: true,
-        },
+        blog: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -162,16 +160,41 @@ const config = {
             title: "Documentation",
             items: [
               {
-                label: "CLI Reference",
-                to: "/docs/cli",
+                label: "Documentation",
+                to: "/docs",
               },
               {
                 label: "GraphQL API Reference",
                 to: "https://graphql.docs.swiftwave.org/"
               },
               {
+                label: "CLI Reference",
+                to: "/docs/cli",
+              },
+              {
                 label: "REST API Reference",
                 to: "https://github.com/swiftwave-org/swiftwave/blob/develop/docs/rest_api.md"
+              }
+            ],
+          },
+          {
+            title: "Important Service",
+            items: [
+              {
+                label: "App Store Metadata",
+                to: "https://github.com/swiftwave-org/app-store",
+              },
+              {
+                label: "Stats Ninja",
+                to: "https://github.com/swiftwave-org/stats-ninja",
+              },
+              {
+                label: "Volume Toolkit",
+                to: "https://github.com/swiftwave-org/volume-toolkit"
+              },
+              {
+                label: "UDP Proxy",
+                to: "https://github.com/swiftwave-org/udpproxy"
               }
             ],
           },
@@ -187,6 +210,10 @@ const config = {
                 to: "https://github.com/swiftwave-org/dashboard",
               },
               {
+                label: "Custom HAProxy Image",
+                to: "https://github.com/swiftwave-org/haproxy"
+              },
+              {
                 label: "Quick DNS",
                 to: "https://github.com/swiftwave-org/dns"
               }
@@ -196,7 +223,7 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Join on Slack",
+                label: "Slack",
                 to: "https://slack.swiftwave.org/",
               },
               {
@@ -210,7 +237,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} SwiftWave, All rights reserved.`,
+        copyright: `Copyright © 2023 - ${new Date().getFullYear()} SwiftWave, All rights reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
