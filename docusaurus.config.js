@@ -1,10 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-import versions from './versions.json';
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -13,8 +11,8 @@ const config = {
   favicon: "img/favicon.ico",
   url: "https://swiftwave.org",
   baseUrl: "/",
-  organizationName: "swiftwave-org", // Usually your GitHub org/user name.
-  projectName: "swiftwave", // Usually your repo name.
+  organizationName: "swiftwave-org",
+  projectName: "swiftwave",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   i18n: {
@@ -39,9 +37,7 @@ const config = {
             },
           },
         },
-        blog: {
-          showReadingTime: true,
-        },
+        blog: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -96,7 +92,7 @@ const config = {
         },
       },
       colorMode: {
-        defaultMode: "dark",
+        defaultMode: "light",
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
@@ -146,15 +142,6 @@ const config = {
           //   label: "Blog",
           //   position: "left",
           // },
-          // {
-          //   type: "localeDropdown",
-          //   position: "right",
-          // },
-          // {
-          //   to: "/docs/manifesto",
-          //   label: "🌱 Manifesto",
-          //   position: "right",
-          // },
           {
             type: 'docsVersionDropdown',
             position: 'right',
@@ -167,22 +154,47 @@ const config = {
         ],
       },
       footer: {
-        style: "dark",
+        style: "light",
         links: [
           {
             title: "Documentation",
             items: [
               {
-                label: "CLI Reference",
-                to: "/docs/cli",
+                label: "Documentation",
+                to: "/docs",
               },
               {
                 label: "GraphQL API Reference",
                 to: "https://graphql.docs.swiftwave.org/"
               },
               {
+                label: "CLI Reference",
+                to: "/docs/cli",
+              },
+              {
                 label: "REST API Reference",
                 to: "https://github.com/swiftwave-org/swiftwave/blob/develop/docs/rest_api.md"
+              }
+            ],
+          },
+          {
+            title: "Important Service",
+            items: [
+              {
+                label: "App Store Metadata",
+                to: "https://github.com/swiftwave-org/app-store",
+              },
+              {
+                label: "Stats Ninja",
+                to: "https://github.com/swiftwave-org/stats-ninja",
+              },
+              {
+                label: "Volume Toolkit",
+                to: "https://github.com/swiftwave-org/volume-toolkit"
+              },
+              {
+                label: "UDP Proxy",
+                to: "https://github.com/swiftwave-org/udpproxy"
               }
             ],
           },
@@ -198,6 +210,10 @@ const config = {
                 to: "https://github.com/swiftwave-org/dashboard",
               },
               {
+                label: "Custom HAProxy Image",
+                to: "https://github.com/swiftwave-org/haproxy"
+              },
+              {
                 label: "Quick DNS",
                 to: "https://github.com/swiftwave-org/dns"
               }
@@ -207,7 +223,7 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Join on Slack",
+                label: "Slack",
                 to: "https://slack.swiftwave.org/",
               },
               {
@@ -221,11 +237,10 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} SwiftWave, All rights reserved.`,
+        copyright: `Copyright © 2023 - ${new Date().getFullYear()} SwiftWave, All rights reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
       },
       chatwoot: {
         websiteToken: "fHNAVUAniYVj5DzwyRNxvxSC",
