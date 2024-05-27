@@ -9,14 +9,14 @@ export default function InfoGroup(props) {
                 {
                     (props.infos || []).map((info, index) => {
                         return (
-                            <div className="w-full md:w-[20%] border-[2px] border-gray-400 border-solid rounded-lg p-3 md:p-5" key={index}>
+                            <div className="w-full md:w-[20%] border-[2px] border-gray-400 border-solid rounded-lg p-3 md:p-5 shadow-md" key={index}>
                                 <div className="flex flex-row justify-start items-center gap-2 font-Poppins">
                                     {
                                         info.icon
                                     }
                                     <div className="text-lg md:text-xl font-bold">{info.title}</div>
                                 </div>
-                                <div className="mt-4 font-Roboto shadow-sm text-justify">
+                                <div className="mt-4 font-Roboto text-justify">
                                     {info.content}
                                 </div>
                             </div>
