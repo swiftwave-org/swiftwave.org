@@ -6,7 +6,7 @@
 
 @tailwind utilities;
 
-[data-theme='dark'] {
+/* [data-theme='dark'] {
   --ifm-color-primary: #af8aff;
   --ifm-color-primary-dark: #9463ff;
   --ifm-color-primary-darker: #8f5bff;
@@ -16,7 +16,7 @@
   --ifm-color-primary-lightest: #ffffff;
   --ifm-background-color: #111827;
   --ifm-navbar-background-color: #111827;
-}
+} */
 
 .markdown header h1 {
   --ifm-h1-font-size: 2rem!important;

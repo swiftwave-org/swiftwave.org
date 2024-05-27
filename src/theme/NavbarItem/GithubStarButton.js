@@ -3,10 +3,8 @@ import GitHubButton from 'react-github-btn'
 
 export default function () {
     return (
-        <li className="menu__link mr-10 lg:mr-0" style={{
-            top: "0.25rem"
-        }}>
-            <GitHubButton href="https://github.com/swiftwave-org/swiftwave" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" data-show-count="true" aria-label="Star swiftwave-org/swiftwave on GitHub">Star</GitHubButton>
-        </li>
+        <div className="mr-10 lg:mr-0 pt-2">
+            <GitHubButton href="https://github.com/swiftwave-org/swiftwave" class="p-0 m-0" data-color-scheme="light" data-size="large" data-show-count="true" data-text="Star" aria-label="Star swiftwave-org/swiftwave on GitHub">Star</GitHubButton>
+        </div>
     );
 }

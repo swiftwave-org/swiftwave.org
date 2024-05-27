@@ -1,10 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-import versions from './versions.json';
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -13,8 +11,8 @@ const config = {
   favicon: "img/favicon.ico",
   url: "https://swiftwave.org",
   baseUrl: "/",
-  organizationName: "swiftwave-org", // Usually your GitHub org/user name.
-  projectName: "swiftwave", // Usually your repo name.
+  organizationName: "swiftwave-org",
+  projectName: "swiftwave",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   i18n: {
@@ -96,7 +94,7 @@ const config = {
         },
       },
       colorMode: {
-        defaultMode: "dark",
+        defaultMode: "light",
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
@@ -146,15 +144,6 @@ const config = {
           //   label: "Blog",
           //   position: "left",
           // },
-          // {
-          //   type: "localeDropdown",
-          //   position: "right",
-          // },
-          // {
-          //   to: "/docs/manifesto",
-          //   label: "🌱 Manifesto",
-          //   position: "right",
-          // },
           {
             type: 'docsVersionDropdown',
             position: 'right',
@@ -167,7 +156,7 @@ const config = {
         ],
       },
       footer: {
-        style: "dark",
+        style: "light",
         links: [
           {
             title: "Documentation",
@@ -225,7 +214,6 @@ const config = {
       },
       prism: {
         theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
       },
       chatwoot: {
         websiteToken: "fHNAVUAniYVj5DzwyRNxvxSC",
