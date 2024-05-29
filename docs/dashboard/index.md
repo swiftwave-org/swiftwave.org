@@ -14,9 +14,8 @@ sidebar_position: 5
 </div>
 
 
-SwiftWave Dashboard is a web-based interface to manage your applications, domains and all. It's the main management interface for SwiftWave.
+SwiftWave Dashboard is a web-based interface for controlling all resources, including apps, domains, persistent volumes, and more. It is SwiftWave's main management interface.
 
-> 📌 Note: SwiftWave Dashboard comes pre-bundled with SwiftWave. You don't need to install it separately.
 
 
 ## Sections of Dashboard

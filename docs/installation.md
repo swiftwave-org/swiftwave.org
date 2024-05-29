@@ -131,7 +131,7 @@ Let's get started with SwiftWave! It will not take more than 10 minutes to insta
 9.  🎉 Congratulations! SwiftWave is now installed on your server.
 10. Let's move to the next section to onboard your server to SwiftWave.
 
-## 📥 Onboard Server
+## 🖥️ Onboard Server
 1. Log-in to SwiftWave Dashboard
 2. Navigate to `Server Management` page and click on `Add Server` button.
 3. In `Server IP` put the public / private IP of your server. If your server has no public IP, put `127.0.0.1` as IP.
@@ -151,3 +151,13 @@ Let's get started with SwiftWave! It will not take more than 10 minutes to insta
     :::
 8. 🎉 Congratulations! Your server is now onboarded to SwiftWave.
 9. Now, you can start using 🚀 SwiftWave.
+
+## 📊 Setup Resource Monitoring
+
+SwiftWave comes with a built-in monitoring system that allows you to track the resource usage of servers and applications.
+
+To enable monitoring, follow these steps:
+1. Log-in to SwiftWave Dashboard
+2. Navigate to `Server Management` page.
+3. Click on `View Actions` and click on `Setup Resource Monitoring`.
+4. Follow the generated instructions to complete the setup.
