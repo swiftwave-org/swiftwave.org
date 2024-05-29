@@ -1,6 +1,6 @@
 ---
 id: installation
-title: 🚀 Installation
+title: ⚒️ Installation
 sidebar_position: 3
 ---
 import Tabs from '@theme/Tabs';
