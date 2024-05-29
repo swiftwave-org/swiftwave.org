@@ -1,129 +1,153 @@
 ---
-id: getting_started
-title: 🚀 Getting Started
-sidebar_position: 4
+id: installation
+title: 🚀 Installation
+sidebar_position: 3
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-Let's get started with SwiftWave!
-Let's first install SwiftWave on your server. Because without SwiftWave, you can't deploy your applications. 😅
+Let's get started with SwiftWave! It will not take more than 10 minutes to install SwiftWave on your server.
 
 ## 📦 Pre-requisites
-1. A Virtual Server with Debian, Ubuntu, Fedora OS or their derivatives installed.
-2. Virtual Server should have at least 1GB RAM and 1vCPU.
-3. Install curl, git, unzip and tar utilities.
-    ```bash
-    # For Debian/Ubuntu based distros:
-    sudo apt update -y
-    sudo apt install curl git unzip tar nfs-common -y
 
-    # For Fedora based distros:
-    sudo dnf install curl git unzip tar nfs-utils
-    ```
-4. Install docker (Skip this step if you already have docker installed)
+1. A Linux System with at-least 1GB RAM and 1vCPU.
+2. Install some utilities like curl, git, unzip and tar.
+   <Tabs>
+    <TabItem value="debian" label="Debain / Ubuntu" default>
     ```bash
-    curl -fsSL https://get.docker.com -o get-docker.sh
-    sudo sh get-docker.sh
+    sudo apt update -y
+    sudo apt install curl git unzip tar -y
     ```
-    > 📌 Note: As RHEL doesn't support docker, SwiftWave doesn't support RHEL based distros.
-5. You are all set! 🎉
+    </TabItem>
+    <TabItem value="fedora" label="Fedora / CentOS">
+    ```bash
+    sudo dnf install curl git unzip tar
+    ```
+    </TabItem>
+   </Tabs>
+
+3. Install docker (Skip this step if you already have docker installed)
+   <Tabs>
+    <TabItem value="debian" label="Debain / Ubuntu" default>
+    ```bash
+    curl -fsSL https://get.docker.com | sudo bash -
+    ```
+    </TabItem>
+    <TabItem value="fedora" label="Fedora / CentOS">
+    ```bash
+    curl -fsSL https://get.docker.com | sudo bash -
+    sudo systemctl enable docker.service
+    sudo systemctl enable containerd.service
+    sudo systemctl start docker.service
+    sudo systemctl start containerd.service
+    ```
+    </TabItem>
+   </Tabs>
+4. You are all set! 🎉
 
 ## 📥 Installation
 1. SSH into your server.
-
-2. Download SwiftWave binary
-   - For **AMD64** Architecture
-   ```bash
-    curl -L https://github.com/swiftwave-org/swiftwave/releases/download/1.0.5/swiftwave-1.0.5-linux-amd64.tar.gz -o swiftwave.tar.gz
-   ```
-   - For **ARM64** Architecture
-   ```bash
-    curl -L https://github.com/swiftwave-org/swiftwave/releases/download/1.0.5/swiftwave-1.0.5-linux-arm64.tar.gz -o swiftwave.tar.gz
-   ```
-   - For **386** Architecture
-   ```bash
-    curl -L https://github.com/swiftwave-org/swiftwave/releases/download/1.0.5/swiftwave-1.0.5-linux-386.tar.gz -o swiftwave.tar.gz
-   ```
-3. Extract the gzip archive
+2. Run below commands to install SwiftWave.
+   <Tabs>
+    <TabItem value="debian" label="Debain / Ubuntu" default>
+    Add Swiftwave Repository
     ```bash
-    tar -xzf swiftwave.tar.gz
+    sudo mkdir -p /etc/apt/keyrings 
+    sudo mkdir /root/.gnupg
+    sudo gpg --no-default-keyring --keyring /etc/apt/keyrings/swiftwave.gpg --keyserver keyserver.ubuntu.com --recv-keys DD510C86CD3F6764
+    echo "deb [signed-by=/etc/apt/keyrings/swiftwave.gpg] http://deb.repo.swiftwave.org/ swiftwave stable" | sudo tee /etc/apt/sources.list.d/swiftwave.list
     ```
-4. Make swiftwave binary executable
+    Install SwiftWave
     ```bash
-    chmod +x swiftwave
+    sudo apt update -y
+    sudo apt install swiftwave -y
     ```
-5. Move swiftwave binary to /usr/bin
+    </TabItem>
+    <TabItem value="fedora" label="Fedora / CentOS">
+    Add Swiftwave Repository
     ```bash
-    sudo mv swiftwave /usr/bin/swiftwave
+    sudo dnf config-manager --add-repo http://rpm.repo.swiftwave.org/swiftwave.repo
     ```
-6. 🕒 Time for setup!
-7. Initialize Docker Swarm
+    Install SwiftWave
     ```bash
-    sudo docker swarm init
+    sudo dnf install swiftwave -y
     ```
-8. Initialize SwiftWave configuration. Run following command and provide required information.
+    </TabItem>
+   </Tabs>
+3. Initialize SwiftWave configuration.
     ```bash
     sudo swiftwave init
     ```
-9. Prepare Environment for SwiftWave
-    ```bash
-    sudo swiftwave setup
-    ```
-10. Run Local Postgres Database
-    ```bash
-    sudo swiftwave postgres start
-    ```
-11. Migrate Database Tables
-    ```bash
-    sudo swiftwave db-migrate
-    ```
-12. Generate SSL certificate for primary domain
-    ```bash
-    sudo swiftwave tls generate-certificate
-    ```
-    :::tip
-    If you are installing in a system which doesn't have any public ip, then you can skip this step and disable tls.
+    :::info
 
-    Run the following command to disable tls.
-    ```bash title="Disable TLS"
-    sudo swiftwave tls disable
-    ```
+    During this step, it will ask a domain name for management node.
+
+    - If your server has a public IP, you can just use the default domain suggested by SwiftWave at that step. If you have any custom domain, you can point that domain to your server IP and use that domain name also.
+    - If you are just trying out in local system and doesn't have any public IP, just use `localhost` as domain name.
+
     :::
-13. Start HAProxy Service
-    ```bash
-    sudo swiftwave haproxy start
-    ```
-14. Start UDP Proxy Service
-    ```bash
-    sudo swiftwave udpproxy start
-    ```
-15. Start SwiftWave Service
-    ```bash
-    sudo swiftwave service enable
-    ```
-16. Enable auto updater for SwiftWave
-    ```bash
-    sudo swiftwave auto-updater enable
-    ```
-17. Enable auto renew service for service TLS certificates
-    ```bash
-    sudo swiftwave tls auto-renew enable
-    ```
-18. Create a new admin user
-    ```bash
-    sudo swiftwave create-user --username <give_a_username> --password <give_a_strong_password>
-    ```
-19. 🎉 Congratulations! SwiftWave is now installed on your server. 
-20. You can now access SwiftWave at `https://<your_domain>:3333`
 
-:::info
+    :::tip
 
-You have forget or missed the auto-generated domain 😅 anyhow ? This is how you can get it back.
- - Suppose your server IP is `3.5.12.13`, then your domain will be `ip-3-5-12-13.swiftwave.xyz`
- - You have added a custom domain `example.com`, then you can use that domain to access it on https://example.com:3333.
- - Other way is open the config file by this command
+    If you like to change the configuration or use a remotely hosted postgres database, you can run the following command and change the yaml configuration file manually.
+
     ```bash
     sudo swiftwave config -e vim
     ```
-    and check the `service.address_of_current_node` field in the config file.
 
-:::
+    :::
+
+4. Start Swiftwave for Setup
+    ```bash
+    sudo swiftwave start
+    ```
+5. Open the printed URL in your browser.
+   - Provide a new username and password for the first admin user.
+   - Provide a valid email address. *Don't use any fake or temporary email address.*
+   - Provide other infos (if required to change)
+   - Submit it !
+   - Come back to terminal.
+6.  Start Swiftwave Service
+    ```bash
+    sudo swiftwave service enable
+    ```
+    After this step, you can access Swiftwave dashboard at the same URL you opened in the previous step.
+7.  (optional) Generate SSL certificate for swiftwave dashboard
+    :::info
+
+    If you have used `localhost` as domain name for management node, skip this step.
+
+    :::
+    ```bash
+    sudo swiftwave tls generate
+    ```
+    
+    Now, use `https` for dashboard URL.
+
+8.  (optional) Enable Auto Updater for SwiftWave
+    ```bash
+    sudo swiftwave auto-update enable
+    ```
+9.  🎉 Congratulations! SwiftWave is now installed on your server.
+10. Let's move to the next section to onboard your server to SwiftWave.
+
+## 📥 Onboard Server
+1. Log-in to SwiftWave Dashboard
+2. Navigate to `Server Management` page and click on `Add Server` button.
+3. In `Server IP` put the public / private IP of your server. If your server has no public IP, put `127.0.0.1` as IP.
+4. Click on `Setup Server` button.
+5. Follow the generated instructions on the dashboard.
+    :::info
+
+    You may be presented with the option to specify the advertiser IP address for the Docker swarm in the very last step. This occurs when a server is assigned multiple IP addresses. In such a circumstance, you should select the public IP address or private IP address generated by the cloud provider for your server.
+
+    :::
+6. Wait 1 minute and refresh the list.
+7. After setup is complete, click on `View Actions` and click on `Enable Ingress Proxy`, keep the default values and submit. It will take upto 5 minutes.
+    :::info
+
+    To verify that the ingress proxy is configured properly, open your web browser and navigate to the IP address of your server. The error code '502 Bad Gateway' should be displayed.
+
+    :::
+8. 🎉 Congratulations! Your server is now onboarded to SwiftWave.
+9. Now, you can start using 🚀 SwiftWave.

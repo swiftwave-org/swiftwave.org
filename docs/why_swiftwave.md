@@ -4,28 +4,22 @@ title: 🌊 Why SwiftWave ?
 sidebar_position: 2
 ---
 
-Hey there! 🚀 Ever wondered why there's yet another PaaS cloud orchestration tool in the sea of options? Let's dive into the story behind SwiftWave.
+Let us learn a little bit about the motivation behind the creation of a product like Swiftwave.
 
-In a world of k8s, k3s, and various orchestrators designed for the big league, what about the small players? Not everyone needs a massive k8s cluster for a petite application. I mean, seriously, a k8s master node demands 2GB of RAM and 2 vCPUs just for starters! ([**Ref**](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)) That's a bit much, especially if you're just starting out and finding your feet.
+To deploy your apps, you will have usually two choices: either deploy using any PaaS (Netlify / Vercel / Heroku / Render) or do deployments manually in a VPS.
 
-Sure, Linux-savvy folks can deploy on a VPS, but manual configurations galore! Docker installs, nginx/haproxy setups, SSL certificates – it's no one-minute job, trust me.
+The first choice is simple but has a cost tag. Second one takes more time to set up and maintain even if it is less expensive and requires Linux and reverse proxy knowledge.
 
-And then, SwiftWave emerged – a PaaS solution that's a breeze to use and feather-light. 🌟
+You can run three to four apps in parallel using Swiftwave Stack on a five dollar Hetzner instance. The cost of doing the same on Proprietary PaaS will be at least 10x higher.
 
-While other solutions are hogging over 2GB of RAM, the SwiftWave + HaProxy + Postgres combo only sips on a modest 250MB of RAM. You can run a couple of applications smoothly in a 1GB RAM VPS without breaking a sweat.
+Some great PaaS systems use K8s and K3s, which are expensive to operate and demand a lot of resources (the master node alone needed 2GB of RAM and 2vCPU). It might not be appropriate for small businesses, hobbyists, or students.
 
-| Service   | Ram Usage  |
-| --------- | ---------- |
-| SwiftWave | ~40MB      |
-| HaProxy   | ~120MB     |
-| Postgres  | ~70MB      |
+So, we plan to develop a PaaS that is as easy to use as a proprietary PaaS while also being lightweight and simple to use and manage.
 
-💸 Not to mention, most platforms charge a pretty penny for application deployment – think around $25 per month for a 512MB RAM. SwiftWave, on the other hand, lets you deploy in a 1GB RAM VPS for just $5 a month!
+Yup ! **Swiftwave** is the result of that initiative.
 
-Here's the kicker! 🎓 For students, we've got you covered. Grab those free digitalocean credits, AWS credits, or tap into the GitHub education plan. Use those credits to deploy your application on a 1GB RAM VPS for free! Oracle Cloud even tosses in 4 OCPU and 24GB RAM for a lifetime – no need to open your wallet for your application deployment.
+**Swiftwave** has very less memory footprint and has all important features that you would expect from a PaaS.
 
-For all you startup warriors and side-hustlers, SwiftWave is your MVP-launching secret weapon. Save both money and time by grabbing AWS credits or other credits, installing SwiftWave on your server, and when the traffic starts rolling in, just hit that scale button – easy peasy.
+![benchmark](/assets/2.x.x/benchmark.png)
 
-In the world of hackathons, deploying your application scores you extra points. With SwiftWave, it's a blink-and-you're-done, 5-minute job. Now you can channel all that focus into developing your application, leaving the deployment worries to SwiftWave.
-
-And hey, if your project lacks a Docker file, no problem! SwiftWave takes care of that for you. Just provide your source code, and voila, it'll generate the Docker file, deploy your application, and let you get back to what you do best – building awesome stuff! 🚀👩‍💻👨‍💻
+*In idle condition, Swiftwave takes 40\~80MB RAM and 1\~2% CPU of a single vCPU. While onboarding new server, the CPU usage can increase upto 20%. But that's one time process.*
