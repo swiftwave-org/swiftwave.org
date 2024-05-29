@@ -6,7 +6,7 @@ sidebar_position: 7
 
 In **Deployment Configuration** section, you can *scale up* or *scale down* the application.
 
-![Deployment Configuration](/assets/application-deployment-configuration.png)
+![Deployment Configuration](/assets/1.x.x/application-deployment-configuration.png)
 
 **Deployment Modes -**
 - **Replicated Mode** - In this mode, you can specify the number of instances you want to run for the application.

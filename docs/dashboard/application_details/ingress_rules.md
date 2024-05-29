@@ -6,7 +6,7 @@ sidebar_position: 3
 
 In **Ingress Rules** section, you can find out all the associated ingress rules for the application.
 
-![Ingress Rules](/assets/application-ingress-rules.png)
+![Ingress Rules](/assets/1.x.x/application-ingress-rules.png)
 
 To manage the ingress rules, click on `Manage Ingress Rules` button. 
 

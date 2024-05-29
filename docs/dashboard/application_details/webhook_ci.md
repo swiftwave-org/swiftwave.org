@@ -8,7 +8,7 @@ You can manage the webhook CI of the application from the **Webhook CI** section
 
 This **Webhook** can be used to trigger re-deployment of the application when the source code of the application is updated.
 
-![Webhook CI](/assets/application-webhook-ci.png)
+![Webhook CI](/assets/1.x.x/application-webhook-ci.png)
 
 **Regenerate Webhook Token** - You can regenerate the webhook URL by tapping on **Regenerate Webhook** button. If you have exposed the webhook URL to the public by mistake, then you can regenerate the webhook URL to make the old webhook URL invalid.
 

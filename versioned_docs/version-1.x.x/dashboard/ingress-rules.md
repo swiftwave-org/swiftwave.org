@@ -6,7 +6,7 @@ sidebar_position: 8
 
 In **Ingress Rules** section you can manage your ingress rules. You can add or delete ingress rules.
 
-![Ingress Rules](/assets/ingress-rule-list.png)
+![Ingress Rules](/assets/1.x.x/ingress-rule-list.png)
 
 ### 😅 Don't know what ingress rules are ?
 In layman's terms, ingress rules are the rules that will connect your domain to your application.
@@ -19,7 +19,7 @@ myapp.com [https] -> myapp:3000
 
 ### Add Ingress Rule
 To add an ingress rule, click on **Add New** button. You will see a form like this:
-![Add Ingress Rule](/assets/add-ingress-rule.png)
+![Add Ingress Rule](/assets/1.x.x/add-ingress-rule.png)
 
 You can choose the protocol your application required.
 - **HTTP**: You can choose any port for your application. It's recommended to use port 80 for HTTP.

@@ -6,7 +6,7 @@ sidebar_position: 1
 
 When you will visit the dashboard for the first time, you will be asked to log in.
 
-![Log In](/assets/log-in.png)
+![Log In](/assets/1.x.x/log-in.png)
 
 You can log in using the credentials of the user you created while installing the application.
 

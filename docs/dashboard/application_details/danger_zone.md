@@ -6,7 +6,7 @@ sidebar_position: 9
 
 In **Danger Zone** section, you have some options which can lead to downtime of the application. So, be careful while using these options.
 
-![Danger Zone](/assets/application-danger-zone.png)
+![Danger Zone](/assets/1.x.x/application-danger-zone.png)
 
 ### Restart Application
 

@@ -6,7 +6,7 @@ sidebar_position: 4
 
 In **Update Source Code** section, you can update the source of the application. You can update the source of the application to deploy a new version of the application.
 
-![Update Source Code](/assets/application-update-source.png)
+![Update Source Code](/assets/1.x.x/application-update-source.png)
 
 ### How to update source of the application ?
 - Change the source info of the application.

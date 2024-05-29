@@ -6,7 +6,7 @@ sidebar_position: 6
 
 In **Image Credentials** section, you can check all the saved Image Registry Credentials. You can use these credentials while deploying an application from a Image Repository.
 
-![Image Credentials List](/assets/image-registry-credential-list.png)
+![Image Credentials List](/assets/1.x.x/image-registry-credential-list.png)
 
 **You can**
 - **Add** a new Image Registry Credential by clicking on `Add New` button.

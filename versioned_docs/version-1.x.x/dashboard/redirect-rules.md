@@ -6,7 +6,7 @@ sidebar_position: 9
 
 In **Redirect Rules** section you can manage your redirect rules. You can add or delete redirect rules.
 
-![Redirect Rules](/assets/redirect-rule-list.png)
+![Redirect Rules](/assets/1.x.x/redirect-rule-list.png)
 
 ### 😅 Don't know what redirect rules are ?
 In layman's terms, redirect rules are the rules that will redirect your domain to another URL.
@@ -17,7 +17,7 @@ In layman's terms, redirect rules are the rules that will redirect your domain t
 ### Add Redirect Rule
 It's very easy to add a redirect rule. Just click on **Add New** button and you will see a form like this:
 
-![Add Redirect Rule](/assets/create-redirect-rule.png)
+![Add Redirect Rule](/assets/1.x.x/create-redirect-rule.png)
 
 1. Choose the protocol (http/https) and domain you want to redirect.
 2. Choose the url where you want to redirect your domain.
