@@ -8,7 +8,7 @@ sidebar_position: 1
 
 SwiftWave is a self-hosted, lightweight PaaS solution for easily deploying and managing your applications on any VPS 🚀. It's an open-source alternative to Heroku, Netlify, and Render. 
 
-You can install swiftwave in bare metal, Raspberry Pi, in any VPS(Hetzner, DigitalOcean, Linode, AWS, GCP etc.). Swiftwave and its dependencies are compatible with AMD64, ARM64 and ARMv7 architectures and compatible with Debain/Ubuntu/Raspbian OS/Fedora/CentOS/AlmaLinux/RockyLinux etc.
+You can install swiftwave in bare metal, Raspberry Pi, in any VPS(Hetzner, DigitalOcean, Linode, AWS, GCP etc.). Swiftwave and its dependencies are compatible with AMD64, ARM64 and ARMv7 architectures and compatible with Debian/Ubuntu/Raspbian OS/Fedora/CentOS/AlmaLinux/RockyLinux etc.
 
 
 Once installed, you can

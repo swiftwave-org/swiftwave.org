@@ -13,7 +13,7 @@ Let's get started with SwiftWave! It will not take more than 10 minutes to insta
 1. A Linux System with at-least 1GB RAM and 1vCPU.
 2. Install some utilities like curl, git, unzip and tar.
    <Tabs>
-    <TabItem value="debian" label="Debain / Ubuntu" default>
+    <TabItem value="debian" label="Debian / Ubuntu" default>
     ```bash
     sudo apt update -y
     sudo apt install curl git unzip tar -y
@@ -28,7 +28,7 @@ Let's get started with SwiftWave! It will not take more than 10 minutes to insta
 
 3. Install docker (Skip this step if you already have docker installed)
    <Tabs>
-    <TabItem value="debian" label="Debain / Ubuntu" default>
+    <TabItem value="debian" label="Debian / Ubuntu" default>
     ```bash
     curl -fsSL https://get.docker.com | sudo bash -
     ```
@@ -49,7 +49,7 @@ Let's get started with SwiftWave! It will not take more than 10 minutes to insta
 1. SSH into your server.
 2. Run below commands to install SwiftWave.
    <Tabs>
-    <TabItem value="debian" label="Debain / Ubuntu" default>
+    <TabItem value="debian" label="Debian / Ubuntu" default>
     Add Swiftwave Repository
     ```bash
     sudo mkdir -p /etc/apt/keyrings 
