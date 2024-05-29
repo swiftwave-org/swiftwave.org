@@ -7,7 +7,7 @@ tags:
 sidebar_position: 2
 ---
 
-Stop local postgres database (Recommended only for standalone installations)
+Stop local postgres database
 
 ### Usage
 

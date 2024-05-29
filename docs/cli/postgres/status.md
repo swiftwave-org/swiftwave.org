@@ -7,7 +7,7 @@ tags:
 sidebar_position: 3
 ---
 
-Check status of local postgres database (Recommended only for standalone installations)
+Check status of local postgres database
 
 ### Usage
 

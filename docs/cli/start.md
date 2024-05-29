@@ -3,7 +3,7 @@ id: start
 title: swiftwave start
 tags:
   - CLI
-sidebar_position: 9
+sidebar_position: 7
 ---
 
 Start swiftwave as a standalone process.
@@ -12,12 +12,6 @@ Start swiftwave as a standalone process.
 
 ```
 swiftwave start
-```
-
-**If you want to run swiftwave in development mode, run the following command:**
-  
-```
-swiftwave start --dev
 ```
 
 ### Note

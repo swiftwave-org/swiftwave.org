@@ -7,87 +7,57 @@ sidebar_position: 7
 Let's get started with SwiftWave Development Setup!
 
 ## 📦 Pre-requisites
-1. A Virtual Server with Debian, Ubuntu, Fedora OS or their derivatives installed.
-2. Virtual Server should have at least 1GB RAM and 1vCPU.
-3. Install curl, git, unzip and tar utilities.
+1. You need a linux system for development of SwiftWave.
+2. Install curl, git, unzip and tar utilities.
     ```bash
     # For Debian/Ubuntu based distros:
-    sudo apt install curl git unzip tar
+    sudo apt install curl git unzip tar make
 
     # For Fedora based distros:
-    sudo dnf install curl git unzip tar
+    sudo dnf install curl git unzip tar make
     ```
-4. Install docker (Skip this step if you already have docker installed)
+3. Install docker (Skip this step if you already have docker installed)
     ```bash
-    curl -fsSL https://get.docker.com -o get-docker.sh
-    sudo sh get-docker.sh
+    curl -fsSL https://get.docker.com | sudo bash -
     ```
-    > 📌 Note: As RHEL doesn't support docker, SwiftWave doesn't support RHEL based distros.
-5. Install Golang by following [this guide](https://golang.org/doc/install)
-6. Install NodeJS by following [this guide](https://deb.nodesource.com/)
-7. You are all set! 🎉
+4. Install Golang by following [this guide](https://golang.org/doc/install)
+5. Install NodeJS by following [this guide](https://deb.nodesource.com/)
+6. You are all set! 🎉
 
 ## 📥 Local Installation
 1. Fork and clone SwiftWave repository
     ```bash
     git clone git@github.com:<your_username>/swiftwave.git --recursive
     ```
-2. Build SwiftWave dashboard
+2. Build SwiftWave & Dashboard
    ```bash
-   npm install
-   npm run build:dashboard
+   make
    ```
-3. Initialize Docker Swarm
+3. Generate the SwiftWave configuration file
+   ```bash
+   sudo ./swiftwave init
+   ```
+    :::tip
+    
+    Use `localhost` as the domain name for management node.
+
+    :::
+4.  Enable development mode
     ```bash
-    sudo docker swarm init
+    sudo ./swiftwave config -e vim
     ```
-4. Move to sudo user
+    Change `dev_mode` to `true` in the configuration file and save it.
+5.  Start SwiftWave
     ```bash
-    sudo su
+    sudo ./swiftwave start
     ```
-5. Set the go module path, as sudo user you may not have access to your user's go module path.
-    ```bash
-    export PATH=$PATH:/usr/local/go/bin
-    ```
-6. Initialize SwiftWave configuration. Run following command and provide required information.
-    ```bash
-    go run . init
-    ```
-    > Note: If it ask for address for SwiftWave / Current Node, put **0.0.0.0** or **127.0.0.1** or **Local IP of your system**.
-7. Prepare Environment for SwiftWave
-    ```bash
-    go run . setup
-    ```
-8.  Run Local Postgres Database
-    ```bash
-    go run . postgres start
-    ```
-9.  Migrate Database Tables
-    ```bash
-    go run . db-migrate
-    ```
-10.  Disable TLS for SwiftWave Development Setup
-    ```bash
-    go run . tls disable
-    ```
-11.  Start HaProxy Service
-    ```bash
-    go run . haproxy start
-    ```
-12.  Start UDP Proxy Service
-    ```bash
-    go run . udpproxy start
-    ```
-13.  Create a new admin user with username **admin** and password also **admin**
-    ```bash
-    go run . create-user -u admin -p admin
-    ```
-14. Start SwiftWave
-    ```bash
-    go run . start --dev
-    ```
-15. 🎉 Congratulations! You have successfully setup SwiftWave for local development
-16. You can now access SwiftWave at `http://localhost:3333`
+    :::warning
+
+    Use a real email address in the setup process, else swiftwave may face failure to register account in Let's Encrypt.
+
+    :::
+6.  🎉 Congratulations! You have successfully setup SwiftWave for local development
+7.  You can now access SwiftWave at `http://localhost:3333`
 
 ## Access GraphQL Playground
 1. Use Login Endpoint for generating a JWT Token.

@@ -4,7 +4,7 @@ title: swiftwave service status
 tags:
   - CLI
   - Swiftwave Service
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 Get status of swiftwave service

@@ -17,11 +17,9 @@ swiftwave init [flags]
 ### Flags
 
 
-| Flag       |   Type   |  Default |  Mandatory |     Description           |
-|------------|----------|----------|------------|---------------------------|
-| --mode     | `standalone` / `cluster` | <center>`standalone`</center> | <center>❌</center> | Mode of operation |
-| --letsencrypt-email | string | <center>--</center> | <center>❌</center> | Email address for Let's Encrypt |
-| --haproxy-user | string | <center>`admin`</center> | <center>❌</center> | Username for HAProxy (Can't be modified once set) |
-| --haproxy-password | string | <center>`admin`</center> | <center>❌</center> | Password for HAProxy (Can't be modified once set) |
-| --auto-domain | `true` / `false` | <center>`false`</center> | <center>❌</center> | Resolve domain name automatically |
-| --overwrite | `true` / `false` | <center>`false`</center> | <center>❌</center> | Overwrite existing configuration |
+| Flag              | Type             | Default                  | Mandatory          | Description                                    |
+| ----------------- | ---------------- | ------------------------ | ------------------ | ---------------------------------------------- |
+| --domain          | string           |                          | <center>❌</center> | Domain name for management node                |
+| --auto-domain     | `true` / `false` | <center>`false`</center> | <center>❌</center> | Use *.swiftwave.xyz domain for management node |
+| --remote-postgres | `true` / `false` | <center>`false`</center> | <center>❌</center> | Opt out Local postgres database                |
+| --overwrite       | `true` / `false` | <center>`false`</center> | <center>❌</center> | Overwrite existing configuration               |

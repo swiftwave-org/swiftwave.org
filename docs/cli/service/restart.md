@@ -4,7 +4,7 @@ title: swiftwave service restart
 tags:
   - CLI
   - Swiftwave Service
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 Restart swiftwave service

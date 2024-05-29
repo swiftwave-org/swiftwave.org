@@ -8,7 +8,7 @@ sidebar_position: 1
 ---
 
 
-Start local postgres database (Recommended only for standalone installations)
+Start local postgres database
 
 ### Usage
 
