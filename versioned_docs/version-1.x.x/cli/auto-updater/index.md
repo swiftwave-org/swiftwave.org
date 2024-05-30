@@ -10,5 +10,5 @@ sidebar_position: 14
 Auto updater is a feature that will automatically update Swiftwave to the latest minor version and apply hotfixes.
 
 ### Check available commands
-- [**swiftwave auto-updater enable**](/docs/cli/auto-updater/enable)
-- [**swiftwave auto-updater disable**](/docs/cli/auto-updater/disable)
+- [**swiftwave auto-updater enable**](./enable)
+- [**swiftwave auto-updater disable**](./disable)

@@ -11,12 +11,12 @@ First off, thanks for having interest in contributing to SwiftWave! 🎉
 
 We have couple of projects under SwiftWave organization. You can contribute to any of them.
 
-| Project | Description | Tech Stack | GitHub Link | Setup Guide |
-| --- | --- | --- | --- | --- |
-| SwiftWave | Core PaaS | Golang, Docker | [Click Here](https://github.com/swiftwave-org/swiftwave) | [Click Here](/docs/development_setup) |
-| SwiftWave Dashboard | Web interface for SwiftWave. | VueJS, TailwindCSS | [Click Here](https://github.com/swiftwave-org/dashboard) | [Click Here](https://github.com/swiftwave-org/dashboard) |
+| Project | Description | Tech Stack | GitHub Link | Setup Guide                                                  |
+| --- | --- | --- | --- |--------------------------------------------------------------|
+| SwiftWave | Core PaaS | Golang, Docker | [Click Here](https://github.com/swiftwave-org/swiftwave) | [Click Here](./development_setup)                            |
+| SwiftWave Dashboard | Web interface for SwiftWave. | VueJS, TailwindCSS | [Click Here](https://github.com/swiftwave-org/dashboard) | [Click Here](https://github.com/swiftwave-org/dashboard)     |
 | SwiftWave Docs + Landing Page | Official landing page and documentation website | Docusaurus | [Click Here](https://github.com/swiftwave-org/swiftwave.org) | [Click Here](https://github.com/swiftwave-org/swiftwave.org) |
-| Quick DNS | Service to provide ***.swiftwave.xyz** domain for your swiftwave installation | Golang | [Click Here](https://github.com/swiftwave-org/dns) | [Click Here](https://github.com/swiftwave-org/dns) |
+| Quick DNS | Service to provide ***.swiftwave.xyz** domain for your swiftwave installation | Golang | [Click Here](https://github.com/swiftwave-org/dns) | [Click Here](https://github.com/swiftwave-org/dns)           |
 
 ### 📝 How to Contribute to any of the project
 1. Fork the repository

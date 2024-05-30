@@ -6,7 +6,7 @@ sidebar_position: 7
 
 In **Domains** section, you can manage all the custom domains you have added to swiftwave.
 
-![Domains List](/assets/custom-domain-list.png)
+![Domains List](/assets/1.x.x/custom-domain-list.png)
 
 ### Register a new domain
 You can click on `Register New` button and fill in the required details to register a new domain.

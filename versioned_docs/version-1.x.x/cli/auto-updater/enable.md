@@ -14,7 +14,7 @@ Enable Swiftwave Auto Updater Service.
 You should keep automated database migration enabled to avoid any issues and use SwiftWave Auto Updater.
 
 If you have disabled automated database migration, you can enable it by
-- Run `swiftwave config -e vim` or `swiftwave config -e nano` to open SwiftWave configuration file in editor. [See more](/docs/cli/config)
+- Run `swiftwave config -e vim` or `swiftwave config -e nano` to open SwiftWave configuration file in editor. [See more](../config)
 - Set `service.auto_migrate_database` to `false`
 - Save and close the file
 

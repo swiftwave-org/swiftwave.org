@@ -1,9 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "SwiftWave",
@@ -36,6 +33,19 @@ const config = {
               label: `Develop 🚧`,
             },
           },
+          admonitions: {
+            keywords: [
+              'secondary',
+              'info',
+              'success',
+              'danger',
+              'note',
+              'tip',
+              'warning',
+              'important',
+              'caution',
+            ],
+          }
         },
         blog: false,
         theme: {
@@ -240,7 +250,7 @@ const config = {
         copyright: `Copyright © 2023 - ${new Date().getFullYear()} SwiftWave, All rights reserved.`,
       },
       prism: {
-        theme: lightCodeTheme,
+        additionalLanguages: ['bash']
       },
       chatwoot: {
         websiteToken: "fHNAVUAniYVj5DzwyRNxvxSC",

@@ -30,7 +30,7 @@ Deploying with SwiftWave is a breeze – just bring your application's source co
 
 
 ### 📚 Next Steps
-- [**How to check details and manage a deployed application**](/docs/dashboard/application_details/)
-- [**How to expose application to internet ?**](/docs/dashboard/ingress-rules)
-- [**How to configure persistent storage ?**](/docs/dashboard/application_details/persistent_volumes)
-- [**How to configure environment variables ?**](/docs/dashboard/application_details/environment_variables)
+- [**How to check details and manage a deployed application**](./application_details/)
+- [**How to expose application to internet ?**](./ingress-rules)
+- [**How to configure persistent storage ?**](./application_details/persistent_volumes)
+- [**How to configure environment variables ?**](./application_details/environment_variables)
