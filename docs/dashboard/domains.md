@@ -1,12 +1,12 @@
 ---
 id: domains
 title: 🌐 Domains
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 In **Domains** section, you can manage all the custom domains you have added to swiftwave.
 
-![Domains List](/assets/1.x.x/custom-domain-list.png)
+![Domains List](/assets/2.x.x/domain-list.png)
 
 ### Register a new domain
 You can click on `Register New` button and fill in the required details to register a new domain.
@@ -19,12 +19,18 @@ You can click on `Delete` button to delete a domain.
 > - no redirect rules linked to it
 
 ### Verify DNS
-You can click on `Verify DNS` button to verify if domain is correctly pointing to swiftwave.
-> Note: You shouldn't use any DNS proxy service like Cloudflare, etc. for your domain. If you are using any such service, you should disable it before verifying DNS.
+You can click on `Verify DNS` button to verify if domain is correctly pointing to the proxy server.
+
+:::tip
+
+- If you are using cloudflare as your DNS provider, it is recommended to use DNS only mode while mapping your domain to the proxy server IP.
+- If you want to use Cloudflare Proxy Mode, go to `Domain SSL/TLS Mode` section and mark `Encryption Mode` to `Full`. After this, all your application hosted on swiftwave should use `https` protocol in all ingress rules.
+
+:::
 
 
 ### Issue SSL Certificate 🛡️
 Swiftwave has Let's Encrypt integration. You can issue a SSL certificate for your domain by clicking on `Issue SSL` button.
 
 ### SSL Auto Renewal
-Swiftwave does not support SSL auto renewal yet. You will have to manually renew your SSL certificate every 90 days. You can do so by clicking on `Issue SSL` button. We will be adding SSL auto renewal feature soon.
+From V2, Swiftwave supports SSL auto renewal. You don't need to worry about renewing your SSL certificate manually.

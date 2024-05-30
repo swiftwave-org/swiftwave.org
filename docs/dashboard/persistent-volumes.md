@@ -29,6 +29,16 @@ In **Persistent Volumes** section, you can see all the persistent volumes create
      > Note : Duly check the NFS server details before submitting. You can't change the NFS server details once the volume is created.
    - Click on `Register` button and the volume will be created.
 
+3. **SAMBA Share / CIFS Volume**
+   You can mount a SAMBA share or CIFS volume to share the volume across the cluster and also to keep your data more reliable.
+
+   - Click on `Add New` button.
+   - ![SAMBA Share / CIFS Volume](/assets/2.x.x/create-cifs-volume.png)
+   - Choose a unique name for the volume and can't contain spaces.
+   - Choose type `CIFS`.
+   - Fillup CIFS server details.
+     > Note : Duly check the CIFS server details before submitting. You can't change the CIFS server details once the volume is created.
+   - Click on `Register` button and the volume will be created.
 
 ### Delete a Persistent Volume
 Just click on `Delete` button to delete a persistent volume.
@@ -41,7 +51,11 @@ You can click on `Fetch Size` button to fetch size of the persistent volume.
 2. You can choose type of backup.
     - **Local** : The backup will be stored locally in the server itself.
     - **S3** : The backup will be stored in S3 bucket. You need to configure S3 beforehand to avail this feature.
-      > You can open  swiftwave config by [`swiftwave config -e vim`](/docs/cli/config) command
+      :::tip
+
+      TODO add system config page
+
+      :::
 3. Submit to create backup.
 4. You can open the backup history by `Show Backups` button to see the status of the backup.
 
