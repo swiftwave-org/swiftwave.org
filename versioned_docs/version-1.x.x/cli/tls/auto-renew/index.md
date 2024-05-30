@@ -10,5 +10,5 @@ Automated Service to renew TLS certificates for all domain registered for swiftw
 > It's not for renewing certificates for domain of hosted applications
 
 ### Check available commands
-- [**swiftwave tls auto-renew enable**](/docs/cli/tls/auto-renew/enable)
-- [**swiftwave tls auto-renew disable**](/docs/cli/tls/auto-renew/disable)
+- [**swiftwave tls auto-renew enable**](./enable)
+- [**swiftwave tls auto-renew disable**](./disable)

@@ -20,6 +20,6 @@ swiftwave update
 
 Best practice is to enable swiftwave auto update service to keep Swiftwave up to date and secured.
 
-Check out [**swiftwave auto-update**](/docs/cli/auto-update) command for more information.
+Check out [**swiftwave auto-update**](./auto-update) command for more information.
 
 :::

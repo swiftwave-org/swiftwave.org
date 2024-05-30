@@ -10,4 +10,4 @@ In **Application List**, you can see all the applications that you have created.
 
 You can click on **`View Details`** button to see more details about the application.
 
-Check out [**Application Details**](/docs/dashboard/application_details) to learn more about it.
+Check out [**Application Details**](./application_details) to learn more about it.

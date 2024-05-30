@@ -21,14 +21,14 @@ If you like to make your application online, you can resume the application. Thi
 
 #### 🏄‍♂️ Let's go through each section of the **Application Details** page.
 
-| Section                  | Page Link                                                                        |
-| ------------------------ | -------------------------------------------------------------------------------- |
-| Deployments              | [***Click Here***](/docs/dashboard/application_details/deployments)              |
-| Runtime Logs             | [***Click Here***](/docs/dashboard/application_details/runtime_logs)             |
-| Ingress Rules            | [***Click Here***](/docs/dashboard/application_details/ingress_rules)            |
-| Update Source Code       | [***Click Here***](/docs/dashboard/application_details/update_source_code)       |
-| Environment Variables    | [***Click Here***](/docs/dashboard/application_details/environment_variables)    |
-| Persistent Volumes       | [***Click Here***](/docs/dashboard/application_details/persistent_volumes)       |
-| Deployment Configuration | [***Click Here***](/docs/dashboard/application_details/deployment_configuration) |
-| Webhook CI               | [***Click Here***](/docs/dashboard/application_details/webhook_ci)               |
-| Danger Zone              | [***Click Here***](/docs/dashboard/application_details/danger_zone)              |
+| Section                  | Page Link                                      |
+| ------------------------ |------------------------------------------------|
+| Deployments              | [***Click Here***](./deployments)              |
+| Runtime Logs             | [***Click Here***](./runtime_logs)             |
+| Ingress Rules            | [***Click Here***](./ingress_rules)            |
+| Update Source Code       | [***Click Here***](./update_source_code)       |
+| Environment Variables    | [***Click Here***](./environment_variables)    |
+| Persistent Volumes       | [***Click Here***](./persistent_volumes)       |
+| Deployment Configuration | [***Click Here***](./deployment_configuration) |
+| Webhook CI               | [***Click Here***](./webhook_ci)               |
+| Danger Zone              | [***Click Here***](./danger_zone)              |

@@ -21,4 +21,4 @@ swiftwave start --dev
 ```
 
 ### Note
-If you are looking to run swiftwave as a service, please refer to the [**service**](/docs/cli/service) command.
+If you are looking to run swiftwave as a service, please refer to the [**service**](./service) command.

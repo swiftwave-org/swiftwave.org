@@ -24,7 +24,7 @@ To add an ingress rule, click on **Add New** button. You will see a form like th
 You can choose the protocol your application required.
 - **HTTP**: You can choose any port for your application. It's recommended to use port 80 for HTTP.
 - **HTTPS**: Currently, only port 443 is supported.
-  > Note: To enable, **HTTPS Redirection**, you will have to create a redirect rule. You can follow [**this docs**](/docs/dashboard/redirect-rules#https-redirect) section to create a redirect rule.
+  > Note: To enable, **HTTPS Redirection**, you will have to create a redirect rule. You can follow [**this docs**](./redirect-rules#https-redirect) section to create a redirect rule.
 - **TCP**: If your application relies on TCP protocol, you can choose this option. You can choose any port for your application.
   > NOTE : In case of TCP, You don't need any domain. You can directly connect your application to your server's IP and port (you choose).
 - **UDP**: If your application relies on UDP protocol, you can choose this option. You can choose any port for your application.

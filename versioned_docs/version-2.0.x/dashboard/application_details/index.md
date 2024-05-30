@@ -20,16 +20,16 @@ If you like to make your application online, you can resume the application. Thi
 
 ### 🏄‍♂️ Let's go through each section of the **Application Details** page.
 
-| Section                  | Page Link                                                                        |
-| ------------------------ | -------------------------------------------------------------------------------- |
-| Deployments              | [***Click Here***](/docs/dashboard/application_details/deployments)              |
-| Analytics                | [***Click Here***](/docs/dashboard/application_details/analytics)                |
-| Runtime Logs             | [***Click Here***](/docs/dashboard/application_details/runtime_logs)             |
-| Ingress Rules            | [***Click Here***](/docs/dashboard/application_details/ingress_rules)            |
-| Persistent Volumes       | [***Click Here***](/docs/dashboard/application_details/persistent_volumes)       |
-| Environment Variables    | [***Click Here***](/docs/dashboard/application_details/environment_variables)    |
-| Update App Source        | [***Click Here***](/docs/dashboard/application_details/update_app_source)        |
-| Deployment Configuration | [***Click Here***](/docs/dashboard/application_details/deployment_configuration) |
-| Webhook CI               | [***Click Here***](/docs/dashboard/application_details/webhook_ci)               |
-| Actions                  | [***Click Here***](/docs/dashboard/application_details/actions)                  |
-| Destroy                  | [***Click Here***](/docs/dashboard/application_details/destroy)                  |
+| Section                  | Page Link                                      |
+| ------------------------ |------------------------------------------------|
+| Deployments              | [***Click Here***](./deployments)              |
+| Analytics                | [***Click Here***](./analytics)                |
+| Runtime Logs             | [***Click Here***](./runtime_logs)             |
+| Ingress Rules            | [***Click Here***](./ingress_rules)            |
+| Persistent Volumes       | [***Click Here***](./persistent_volumes)       |
+| Environment Variables    | [***Click Here***](./environment_variables)    |
+| Update App Source        | [***Click Here***](./update_app_source)        |
+| Deployment Configuration | [***Click Here***](./deployment_configuration) |
+| Webhook CI               | [***Click Here***](./webhook_ci)               |
+| Actions                  | [***Click Here***](./actions)                  |
+| Destroy                  | [***Click Here***](./destroy)                  |

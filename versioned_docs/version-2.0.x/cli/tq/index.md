@@ -12,6 +12,6 @@ sidebar_position: 13
 > Executing any of the commands in this command may result issues in swiftwave.
 
 ### Check available commands
-- [**swiftwave tq ls**](/docs/cli/tq/ls)
-- [**swiftwave tq inspect**](/docs/cli/tq/inspect)
-- [**swiftwave tq purge**](/docs/cli/tq/purge)
+- [**swiftwave tq ls**](./ls)
+- [**swiftwave tq inspect**](./inspect)
+- [**swiftwave tq purge**](./purge)

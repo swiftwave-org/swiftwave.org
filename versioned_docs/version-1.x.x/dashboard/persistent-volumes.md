@@ -41,7 +41,7 @@ You can click on `Fetch Size` button to fetch size of the persistent volume.
 2. You can choose type of backup.
     - **Local** : The backup will be stored locally in the server itself.
     - **S3** : The backup will be stored in S3 bucket. You need to configure S3 beforehand to avail this feature.
-      > You can open  swiftwave config by [`swiftwave config -e vim`](/docs/cli/config) command
+      > You can open  swiftwave config by [`swiftwave config -e vim`](../cli/config) command
 3. Submit to create backup.
 4. You can open the backup history by `Show Backups` button to see the status of the backup.
 

@@ -19,4 +19,4 @@ You can also **Create New User** from the CLI (if you have access to the server 
     sudo swiftwave create-user --username <any_username> --password <any_password>
     ```
 
-    For more information, check out [**CLI Reference**](/docs/cli/create-user).
+    For more information, check out [**CLI Reference**](../cli/create-user).
