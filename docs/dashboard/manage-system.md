@@ -1,7 +1,7 @@
 ---
 id: manage-system
 title: 🖥️ Manage System
-sidebar_position: 13
+sidebar_position: 16
 ---
 
 Under `Manage System` option of sidebar, you can have three options:

@@ -1,7 +1,7 @@
 ---
 id: git-credentials
 title: 🐙 Git Credentials
-sidebar_position: 6
+sidebar_position: 8
 ---
 
 In **Git Credentials** section, you can check all the saved Git Credentials. You can use these credentials while deploying an application from a Git Repository.

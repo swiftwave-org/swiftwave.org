@@ -1,7 +1,7 @@
 ---
 id: image-credentials
 title: 🐳 Image Credentials
-sidebar_position: 7
+sidebar_position: 9
 ---
 
 In **Image Credentials** section, you can check all the saved Image Registry Credentials. You can use these credentials while deploying an application from a Image Repository.

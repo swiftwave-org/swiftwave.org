@@ -25,9 +25,9 @@ SwiftWave Dashboard is a web-based interface for controlling all resources, incl
 | 🏪 Swiftwave App Store        | Install apps in one click from the SwiftWave App Store                | [***Click Here***](/docs/dashboard/swiftwave_app_store)    |
 | 🔨 Deploy Application         | Deploy new application on your server                                 | [***Click Here***](/docs/dashboard/deploy_new_application) |
 | 🔨 Deploy Stack               | Deploy application using stack file                                   | [***Click Here***](/docs/dashboard/deploy_stack)           |
+| 📦 Persistent Volumes         | List of all persistent volumes created on your server & manage them   | [***Click Here***](/docs/dashboard/persistent-volumes)     |
 | 📦 Applications               | List of all applications deployed on your server & manage them        | [***Click Here***](/docs/dashboard/applications)           |
 | 📦 Application Details        | View details of an application                                        | [***Click Here***](/docs/dashboard/application_details)    |
-| 📦 Persistent Volumes         | List of all persistent volumes created on your server & manage them   | [***Click Here***](/docs/dashboard/persistent-volumes)     |
 | 🐙 Git Credentials            | Manage git credentials for your applications                          | [***Click Here***](/docs/dashboard/git-credentials)        |
 | 🐳 Image Registry Credentials | Manage docker image credentials for your applications                 | [***Click Here***](/docs/dashboard/image-credentials)      |
 | 🌐 Domains                    | Manage custom domains, SSL for your applications                      | [***Click Here***](/docs/dashboard/domains)                |

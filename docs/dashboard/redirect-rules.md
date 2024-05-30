@@ -1,7 +1,7 @@
 ---
 id: redirect-rules
 title: 🔄 Redirect Rules
-sidebar_position: 10
+sidebar_position: 12
 ---
 
 In **Redirect Rules** section you can manage your redirect rules. You can add or delete redirect rules.

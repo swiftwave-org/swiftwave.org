@@ -1,7 +1,7 @@
 ---
 id: change_password
 title: 🔒 Change Password
-sidebar_position: 13
+sidebar_position: 15
 ---
 
 To **change your password**, you can click on `Administration > Change Password` in the sidebar. You will see a form like this:

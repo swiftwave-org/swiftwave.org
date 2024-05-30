@@ -1,7 +1,7 @@
 ---
 id: persistent-volumes
 title: 📦 Persistent Volumes
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 In **Persistent Volumes** section, you can see all the persistent volumes created across your cluster for your applications.

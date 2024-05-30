@@ -1,7 +1,7 @@
 ---
 id: manage-servers
 title: 🖥️ Manage Servers
-sidebar_position: 11
+sidebar_position: 13
 ---
 
 ![Manage Servers](/assets/2.x.x/server-management.png)

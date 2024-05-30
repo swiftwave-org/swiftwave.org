@@ -1,7 +1,7 @@
 ---
 id: ingress-rules
 title: 🚪 Ingress Rules
-sidebar_position: 9
+sidebar_position: 11
 ---
 
 In **Ingress Rules** section you can manage your ingress rules. You can add or delete ingress rules.

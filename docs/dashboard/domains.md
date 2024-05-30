@@ -1,7 +1,7 @@
 ---
 id: domains
 title: 🌐 Domains
-sidebar_position: 8
+sidebar_position: 10
 ---
 
 In **Domains** section, you can manage all the custom domains you have added to swiftwave.

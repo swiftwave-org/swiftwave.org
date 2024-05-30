@@ -1,7 +1,7 @@
 ---
 id: applications
 title: 📦 Applications
-sidebar_position: 3
+sidebar_position: 6
 ---
 
 In **Application List**, you can see all the applications that you have created. You can check the status of the application, last time when it was updated, and the number of instances running for that application.
