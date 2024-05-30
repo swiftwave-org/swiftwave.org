@@ -53,7 +53,7 @@ You can click on `Fetch Size` button to fetch size of the persistent volume.
     - **S3** : The backup will be stored in S3 bucket. You need to configure S3 beforehand to avail this feature.
       :::tip
 
-      TODO add system config page
+      Check [system config](./manage-system#system-configuration) for moer details.
 
       :::
 3. Submit to create backup.
