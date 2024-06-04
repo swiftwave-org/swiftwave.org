@@ -230,20 +230,24 @@ const config = {
             ],
           },
           {
-            title: "Community",
+            title: "Links",
             items: [
               {
-                label: "Slack",
+                label: "Join Slack",
                 to: "https://slack.swiftwave.org/",
               },
               {
-                label: "GitHub",
+                label: "Visit GitHub",
                 to: "https://github.com/swiftwave-org",
               },
               {
                 label: "Mail Us",
                 to: "mailto:support@swiftwave.org",
               },
+              {
+                label: "Uptime Monitor",
+                to: "https://status.swiftwave.org/",
+              }
             ],
           },
         ],
