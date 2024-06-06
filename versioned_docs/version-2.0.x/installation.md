@@ -112,7 +112,7 @@ Let's get started with SwiftWave! It will not take more than 10 minutes to insta
     sudo swiftwave service enable
     ```
     After this step, you can access Swiftwave dashboard at the same URL you opened in the previous step.
-7.  (optional) Generate SSL certificate for swiftwave dashboard
+7.  Generate SSL certificate for swiftwave dashboard
     :::info
 
     If you have used `localhost` as domain name for management node, skip this step.
