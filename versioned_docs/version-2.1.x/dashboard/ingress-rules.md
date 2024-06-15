@@ -92,6 +92,6 @@ To protect using **Basic Authentication**,
    ![Setup Authentication](/assets/2.1.x/application-details-ingress-rule-protection.png)
 
 4. Choose **Basic Authentication** as the authentication type.
-5. Choose the userlist or ACL that you want to use for authentication.
+5. Choose the userlist or ACL that you want to use for authentication. Check [**the docs**](./protect-application) to learn more about userlist and ACLs.
 6. Click on **Confirm & Protect** button.
 
