@@ -17,7 +17,7 @@ export default function Header() {
         <div className="mt-20 md:mt-40 mb-10 w-full flex flex-col items-center">
             {/* micro announcement bar */}
             <div className="text-sm md:text-lg text-black px-4 md:px-6 py-1.5 border border-solid border-gray-300 rounded-full font-Poppins mb-14">
-                🚀  Swiftwave v2.1.x released
+                🚀  Swiftwave v2.2.x released
             </div>
             {/* tagline */}
             <div className="font-Pacifico text-center text-2xl md:text-6xl leading-loose md:leading-loose">

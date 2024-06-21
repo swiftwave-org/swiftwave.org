@@ -19,9 +19,9 @@ In **SwiftWave** you can deploy your application from various sources.
 6. Edit Build Arguments, if required.
 7. Put the command, if you need to override the default command of dockerfile.
 8. Click on `Confirm & Proceed to Next Step` button.
-9. At top, you can configure no of application instances you require. (You can also configure this later.)
-10. Configure your application's environment variables. (You can also configure this later.)
-11. You can also configure persistent storage for your application. (You can also configure this later.)
+9.  Configure your application's environment variables. (You can also configure this later.)
+10. You can also configure persistent storage for your application. (You can also configure this later.)
+11. In `Advanced Options` section, you can configure deployment strategy, deployment mode, and other advanced options.
 12. Click on `Click to Confirm & Deploy` button.
 13. Your application will be deployed in a few minutes. 🚀
 14. You can check the build logs and status in the same page.
