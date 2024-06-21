@@ -59,7 +59,7 @@ If your app has any requirement of mounting docker socket, you can use this feat
 
 - First, enable docker socket proxy.
   - `Enable` docker socket proxy from the **Deployment Configuration** section.
-  - Choose the permission of the docker socket. **Please don't provide more than required features to the application. Because that cause security issue.**
+  - Choose the permission of the docker socket. **Please don't provide more than required permissions to the application. Because that cause security issue.**
   - Click on **`Apply Changes`** button to update the source of the application.
   - Refresh the page.
 - Then, you can use the docker socket proxy in your application. There are multiple ways to use docker socket proxy.
