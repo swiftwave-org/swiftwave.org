@@ -12,12 +12,12 @@ Sure, Linux-savvy folks can deploy on a VPS, but manual configurations galore! D
 
 And then, SwiftWave emerged – a PaaS solution that's a breeze to use and feather-light. 🌟
 
-While other solutions are hogging over 2GB of RAM, the SwiftWave + HaProxy + Postgres combo only sips on a modest 250MB of RAM. You can run a couple of applications smoothly in a 1GB RAM VPS without breaking a sweat.
+While other solutions are hogging over 2GB of RAM, the SwiftWave + HaProxy + Postgres combo only sips on a modest 180MB of RAM. You can run a couple of applications smoothly in a 1GB RAM VPS without breaking a sweat.
 
 | Service   | Ram Usage  |
 | --------- | ---------- |
 | SwiftWave | ~40MB      |
-| HaProxy   | ~120MB     |
+| HaProxy   | ~80MB      |
 | Postgres  | ~70MB      |
 
 💸 Not to mention, most platforms charge a pretty penny for application deployment – think around $25 per month for a 512MB RAM. SwiftWave, on the other hand, lets you deploy in a 1GB RAM VPS for just $5 a month!

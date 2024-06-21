@@ -22,7 +22,7 @@ export default function Home() {
               content: <>
                 SwiftWave has very low memory footprint. If you have a tiny server (1GB Ram 1vCPU), you can still run SwiftWave with 3~4 applications.<br /><br />
 
-                SwiftWave + HaProxy + Local Postgres = ~250MB<br /><br />
+                SwiftWave + HaProxy + Local Postgres = ~180MB<br /><br />
 
                 <i>If you can use any remote postgresql server, you can run more applications.</i>
               </>
