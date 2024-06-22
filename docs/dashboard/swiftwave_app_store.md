@@ -13,7 +13,7 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
     justifyContent: 'center',
     marginBottom: '2rem'
 }}>
-    <img src="/assets/2.0.x/app-store.png" alt="app-store.png" width="70%"/>
+    <img src="/assets/2.2.x/app-store.png" alt="app-store.png" width="70%"/>
 </div>
 
 
@@ -74,7 +74,7 @@ From Swiftwave App Store, you can install any app in few clicks.
 
 ## How to install any app from Swiftwave App Store ?
 1. Go to Swiftwave App Store
-   ![Swiftwave App Store](/assets/2.0.x/app-store.png)
+   ![Swiftwave App Store](/assets/2.2.x/app-store.png)
 2. For instance, we are installing NextCloud. So tap on that.
 3. You will see the variants available for installation.
    
