@@ -22,6 +22,9 @@ Currently you can't change the deployment strategy of the application. **Replica
 ### Deployment Preferred Servers
 If you want that your application should be deployed on specific servers, then you can select the servers from the dropdown list.
 
+### Container Hostname
+Usuaully while deploying some service via docker, docker assign a random hostname to your service container. If your deployed application has any requirement fixed hostname, you can utilize this option to set a static hostname inside your container.
+
 ### Memory Configuration
 
 ![Memory Configuration](/assets/2.2.x/application-deployment-memory-configuration.png)
