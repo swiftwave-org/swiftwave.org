@@ -10,7 +10,7 @@ export default function Navbar() {
   const links = [
     { name: "Docs", href: "/docs" },
     { name: "App Store", href: "/docs/dashboard/swiftwave_app_store"},
-    { name: "Community", href: "http://slack.swiftwave.org/" },
+    { name: "Community", href: "http://community.swiftwave.org/" },
     { name: "Contribute", href: "/docs/contribution_guideline" },
     { name: "Support", href: "/docs/support_us" },
   ]
