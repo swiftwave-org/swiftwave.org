@@ -233,8 +233,8 @@ const config = {
             title: "Links",
             items: [
               {
-                label: "Join Slack",
-                to: "https://slack.swiftwave.org/",
+                label: "Join Discord",
+                to: "https://community.swiftwave.org",
               },
               {
                 label: "Visit GitHub",

@@ -11,12 +11,12 @@ First off, thanks for having interest in contributing to SwiftWave! 🎉
 
 We have couple of projects under SwiftWave organization. You can contribute to any of them.
 
-| Project | Description | Tech Stack | GitHub Link | Setup Guide                                                  |
-| --- | --- | --- | --- |--------------------------------------------------------------|
-| SwiftWave | Core PaaS | Golang, Docker | [Click Here](https://github.com/swiftwave-org/swiftwave) | [Click Here](./development_setup)                            |
-| SwiftWave Dashboard | Web interface for SwiftWave. | VueJS, TailwindCSS | [Click Here](https://github.com/swiftwave-org/dashboard) | [Click Here](https://github.com/swiftwave-org/dashboard)     |
-| SwiftWave Docs + Landing Page | Official landing page and documentation website | Docusaurus | [Click Here](https://github.com/swiftwave-org/swiftwave.org) | [Click Here](https://github.com/swiftwave-org/swiftwave.org) |
-| Quick DNS | Service to provide ***.swiftwave.xyz** domain for your swiftwave installation | Golang | [Click Here](https://github.com/swiftwave-org/dns) | [Click Here](https://github.com/swiftwave-org/dns)           |
+| Project                       | Description                                                                   | Tech Stack         | GitHub Link                                                  | Setup Guide                                                  |
+| ----------------------------- | ----------------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| SwiftWave                     | Core PaaS                                                                     | Golang, Docker     | [Click Here](https://github.com/swiftwave-org/swiftwave)     | [Click Here](./development_setup)                            |
+| SwiftWave Dashboard           | Web interface for SwiftWave.                                                  | VueJS, TailwindCSS | [Click Here](https://github.com/swiftwave-org/dashboard)     | [Click Here](https://github.com/swiftwave-org/dashboard)     |
+| SwiftWave Docs + Landing Page | Official landing page and documentation website                               | Docusaurus         | [Click Here](https://github.com/swiftwave-org/swiftwave.org) | [Click Here](https://github.com/swiftwave-org/swiftwave.org) |
+| Quick DNS                     | Service to provide ***.swiftwave.xyz** domain for your swiftwave installation | Golang             | [Click Here](https://github.com/swiftwave-org/dns)           | [Click Here](https://github.com/swiftwave-org/dns)           |
 
 ### 📝 How to Contribute to any of the project
 1. Fork the repository
@@ -35,5 +35,5 @@ We have couple of projects under SwiftWave organization. You can contribute to a
 - Please follow the [**Conventional Commit Message  Guidelines**](https://www.conventionalcommits.org/en/v1.0.0/) while writing commit messages.
 
 ### 📌 Need Help?
-- You can join our [**Slack Workspace**](https://slack.swiftwave.org/) and ask your queries in **#general** channel.
-  - Joining Link: [s**lack.swiftwave.org**](https://slack.swiftwave.org/)
+- You can join our Discord Workspace and ask your queries in **#new-contributors** channel.
+  - **Joining Link :** [community.swiftwave.org](https://community.swiftwave.org)

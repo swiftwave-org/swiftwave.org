@@ -12,7 +12,7 @@ First off, thanks for having interest in contributing to SwiftWave! 🎉
 We have couple of projects under SwiftWave organization. You can contribute to any of them.
 
 | Project                       | Description                                                                     | Tech Stack         | GitHub Link                                                   | Setup Guide                                                   |
-| ----------------------------- | ------------------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------- |---------------------------------------------------------------|
+| ----------------------------- | ------------------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------- | ------------------------------------------------------------- |
 | SwiftWave                     | Core PaaS                                                                       | Golang             | [Click Here](https://github.com/swiftwave-org/swiftwave)      | [Click Here](./development_setup)                             |
 | Dashboard                     | Web interface for SwiftWave.                                                    | VueJS, TailwindCSS | [Click Here](https://github.com/swiftwave-org/dashboard)      | [Click Here](https://github.com/swiftwave-org/dashboard)      |
 | UDPProxy                      | Custom UDP Proxy to forward UDP traffic from outside word to internal services. | Golang             | [Click Here](https://github.com/swiftwave-org/udpproxy)       | [Click Here](https://github.com/swiftwave-org/udpproxy)       |
@@ -39,5 +39,5 @@ We have couple of projects under SwiftWave organization. You can contribute to a
 - Please follow the [**Conventional Commit Message  Guidelines**](https://www.conventionalcommits.org/en/v1.0.0/) while writing commit messages.
 
 ### 📌 Need Help?
-- You can join our Slack Workspace and ask your queries in **#general** channel.
-  - **Joining Link :** [slack.swiftwave.org](https://slack.swiftwave.org/)
+- You can join our Discord Workspace and ask your queries in **#new-contributors** channel.
+  - **Joining Link :** [community.swiftwave.org](https://community.swiftwave.org)
