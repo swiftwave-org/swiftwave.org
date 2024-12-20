@@ -28,6 +28,7 @@ You can click on `Verify DNS` button to verify if domain is correctly pointing t
 
 :::
 
+**Note:** To use the `Verify DNS` feature, ensure that **Enable Ingress Proxy** is turned on for the server.
 
 ### Issue SSL Certificate 🛡️
 
