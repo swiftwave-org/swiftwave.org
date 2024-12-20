@@ -25,7 +25,7 @@ You can click on `Verify DNS` button to verify if domain is correctly pointing t
 
 - If you are using cloudflare as your DNS provider, it is recommended to use DNS only mode while mapping your domain to the proxy server IP.
 - If you want to use Cloudflare Proxy Mode, go to `Domain SSL/TLS Mode` section and mark `Encryption Mode` to `Full`. After this, all your application hosted on swiftwave should use `https` protocol in all ingress rules.
-**Note:** To use the `Verify DNS` feature, ensure that **Enable Ingress Proxy** is turned on for the server.
+- **Note:** To use the `Verify DNS` feature, ensure that **Enable Ingress Proxy** is turned on for the server.
 
 :::
 
