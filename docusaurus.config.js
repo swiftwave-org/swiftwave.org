@@ -62,7 +62,7 @@ const config = {
   ],
 
   plugins: [
-    require.resolve("@chatwoot/docusaurus-plugin"),
+    // require.resolve("@chatwoot/docusaurus-plugin"),
     require.resolve("docusaurus-plugin-image-zoom"),
     async function tailwindPlugin(context, options) {
       return {
@@ -256,20 +256,20 @@ const config = {
       prism: {
         additionalLanguages: ['bash']
       },
-      chatwoot: {
-        websiteToken: "fHNAVUAniYVj5DzwyRNxvxSC",
-        baseURL: "https://app.chatwoot.com", // optional
-        enableInDevelopment: false, // optional
-        chatwootSettings: {
-          hideMessageBubble: false,
-          position: "right", // This can be left or right
-          locale: "en", // Language to be set
-          useBrowserLanguage: false, // Set widget language from user's browser
-          darkMode: "auto", // [light, auto]
-          type: "expanded_bubble",
-          launcherTitle: "Need Help",
-        },
-      },
+      // chatwoot: {
+      //   websiteToken: "fHNAVUAniYVj5DzwyRNxvxSC",
+      //   baseURL: "https://app.chatwoot.com", // optional
+      //   enableInDevelopment: false, // optional
+      //   chatwootSettings: {
+      //     hideMessageBubble: false,
+      //     position: "right", // This can be left or right
+      //     locale: "en", // Language to be set
+      //     useBrowserLanguage: false, // Set widget language from user's browser
+      //     darkMode: "auto", // [light, auto]
+      //     type: "expanded_bubble",
+      //     launcherTitle: "Need Help",
+      //   },
+      // },
       algolia: {
         appId: '1PTIIXB1YZ',
         apiKey: '1693e450556e94deec27f9e7cd320d4c',
