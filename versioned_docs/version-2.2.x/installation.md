@@ -54,9 +54,10 @@ Let's get started with SwiftWave! It will not take more than 10 minutes to insta
     ```bash
     # ensure gpg is installed (may be missing on minimal Debian)
     sudo apt install gpg -y
-    sudo mkdir -p /etc/apt/keyrings
+    sudo mkdir -p -m 0755 /etc/apt/keyrings
     sudo gpg --keyserver keyserver.ubuntu.com --recv-keys DD510C86CD3F6764
     sudo gpg --export DD510C86CD3F6764 | sudo gpg --dearmor -o /etc/apt/keyrings/swiftwave.gpg
+    sudo chmod 0644 /etc/apt/keyrings/swiftwave.gpg
     echo "deb [signed-by=/etc/apt/keyrings/swiftwave.gpg] http://deb.repo.swiftwave.org/ swiftwave stable" | sudo tee /etc/apt/sources.list.d/swiftwave.list
     ```
     Install SwiftWave
