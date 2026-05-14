@@ -20,7 +20,7 @@ export default function Navbar() {
       <div className="flex flex-row justify-between items-center">
         {/* Logo */}
         <div className="flex flex-row justify-center items-center gap-2 cursor-pointer">
-          <img src={Logo} className="w-12 h-12" />
+          <img src={Logo} alt="SwiftWave logo" className="w-12 h-12" />
           <div className="max-h-full flex flex-col items-start justify-center">
             <div className="text-2xl font-Comfortaa font-bold p-0 m-0 leading-tight">swiftwave</div>
             <p className="p-0 m-0 text-sm leading-tight">open source paas</p>
